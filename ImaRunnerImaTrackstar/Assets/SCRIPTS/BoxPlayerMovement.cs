@@ -123,13 +123,13 @@ public class BoxPlayerMovement : MonoBehaviour
             }
             else
             {
-                rb.AddForce(Vector3.down * PlayerStats.Grav * PlayerStats.speedMultiplier, ForceMode.Acceleration);
+                rb.AddForce(Vector3.down * PlayerStats.Grav * PlayerStats.speedMultiplier, ForceMode.Acceleration); // Extra Gravity
                 Sonic = false;
                 if (rb.velocity.y > 0)
                 {
-                    if(PlayerLookScript.xRot < -20f)
+                    if(PlayerLookScript.xRot < -0f)
                     {
-                        rb.AddForce(Vector3.down * PlayerStats.Grav * PlayerStats.speedMultiplier * 3f, ForceMode.Acceleration);
+                        rb.AddForce(Vector3.down * (Mathf.Pow(Mathf.Abs(PlayerLookScript.xRot), 2f) + 5f), ForceMode.Acceleration);
                     }
                 }
             }
