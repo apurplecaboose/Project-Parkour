@@ -123,17 +123,17 @@ public class BoxPlayerMovement : MonoBehaviour
             }
             else
             {
-                rb.AddForce(Vector3.down * PlayerStats.Grav * PlayerStats.speedMultiplier, ForceMode.Acceleration); // Extra Gravity
-                Sonic = false;
-                if (rb.velocity.y > 0)
+                //Regular Gravity
+                Sonic = false; // if: angle is looking up extra strong gravity function
+                if(PlayerLookScript.xRot < 0f)
                 {
-                    if(PlayerLookScript.xRot < -0f)
-                    {
-                        rb.AddForce(Vector3.down * (Mathf.Pow(Mathf.Abs(PlayerLookScript.xRot), 2f) + 5f), ForceMode.Acceleration);
-                    }
+                    rb.AddForce(Vector3.down * (Mathf.Pow(Mathf.Abs(PlayerLookScript.xRot), 0.9f) + 70f), ForceMode.Acceleration);
+                }
+                else
+                {
+                    rb.AddForce(Vector3.down * PlayerStats.Grav * PlayerStats.speedMultiplier, ForceMode.Acceleration); // else: normal grav
                 }
             }
-            
         }
     }
 
