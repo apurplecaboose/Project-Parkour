@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 571002161889240491, guid: 8236d973eff850544803cbe677939149, type: 2}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.24732816, g: 0.2289728, b: 0.28230745, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -797,11 +797,7 @@ MonoBehaviour:
   m_ShowCustomSorter: 0
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
-  m_BeforeStackBundles:
-  - assemblyQualifiedName: Pinwheel.Poseidon.FX.PostProcessing.PUnderwater, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - assemblyQualifiedName: Pinwheel.Poseidon.FX.PostProcessing.PWetLens, Assembly-CSharp,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_BeforeStackBundles: []
   m_AfterStackBundles: []
 --- !u!43 &958581538
 Mesh:
@@ -9583,9 +9579,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71ab1ebdbcb5b4a45b6e5accaae9e024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerLookScript: {fileID: 0}
+  PlayerStats: {fileID: 0}
+  isGrounded: 0
   OnLeftWall: 0
   OnRightWall: 0
   Sonic: 0
+  PlayerSpeed: 0
+  currentVelocity: {fileID: 0}
   animate: {fileID: 1238648373}
   rb: {fileID: 2007822922}
 --- !u!54 &2007822922
@@ -9616,9 +9617,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80e86680657ed6442a74ac01d0fd0c52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensX: 10
-  sensY: -10
+  PlayerStats: {fileID: 0}
   BoolCheck: {fileID: 2007822921}
+  xRot: 0
 --- !u!1 &2040386261
 GameObject:
   m_ObjectHideFlags: 3
