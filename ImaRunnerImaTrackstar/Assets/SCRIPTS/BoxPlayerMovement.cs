@@ -13,6 +13,7 @@ public class BoxPlayerMovement : MonoBehaviour
     float playerHeight = 1f;
     private float SidewaysInput;  
     public bool isGrounded;
+    public bool Jumpable;
     public bool OnLeftWall;
     public bool OnRightWall;
     public bool Sonic = false;
@@ -47,6 +48,7 @@ public class BoxPlayerMovement : MonoBehaviour
 
         OnLeftWall = Physics.Raycast(transform.position, -transform.right, out lefthitinfo , 2f, 1<<6);
         OnRightWall = Physics.Raycast(transform.position, transform.right, out righthitinfo, 2f, 1<<6);
+        Jumpable = Physics.Raycast(transform.position, Vector3.down, playerHeight / 2 + 1f, 1 << 8);
         if (!Sonic)
         {
             isGrounded = Physics.Raycast(transform.position, Vector3.down, playerHeight / 2 + 1f, GroundandWall);
@@ -58,7 +60,7 @@ public class BoxPlayerMovement : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            if (isGrounded)
+            if (isGrounded | Jumpable)
             {
                 rb.AddForce(Vector3.up * PlayerStats.jumpforce, ForceMode.Impulse);
             }
