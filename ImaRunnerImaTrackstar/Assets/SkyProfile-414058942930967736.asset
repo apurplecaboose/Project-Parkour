@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter/Sky
   m_Shader: {fileID: 4800000, guid: 3129e3b90193a0547900ecf4cf4e9864, type: 3}
-  m_ShaderKeywords: ALLOW_STEP_EFFECT HORIZON_CLOUD MOON OVERHEAD_CLOUD STARS STARS_LAYER_0
+  m_ShaderKeywords: ALLOW_STEP_EFFECT HORIZON_CLOUD OVERHEAD_CLOUD STARS STARS_LAYER_0
     STARS_LAYER_1 STARS_LAYER_2
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -93,7 +93,7 @@ Material:
     m_Colors:
     - _DetailOverlayTintColor: {r: 0, g: 0, b: 0, a: 0}
     - _FogColor: {r: 0, g: 0, b: 0, a: 0}
-    - _GroundColor: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 1}
+    - _GroundColor: {r: 0, g: 0, b: 0, a: 1}
     - _HorizonCloudColor: {r: 1, g: 1, b: 1, a: 1}
     - _HorizonColor: {r: 0.5887772, g: 0.7279739, b: 0.9528302, a: 1}
     - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skyColor: {r: 0.060585912, g: 0.03760235, b: 0.122641504, a: 1}
   horizonColor: {r: 0.5887772, g: 0.7279739, b: 0.9528302, a: 1}
-  groundColor: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 1}
+  groundColor: {r: 0, g: 0, b: 0, a: 1}
   horizonThickness: 1
   horizonExponent: 15
   horizonStep: 1000
@@ -161,7 +161,7 @@ MonoBehaviour:
   sunCubemap: {fileID: 0}
   sunLightColor: {r: 0, g: 0, b: 0, a: 0}
   sunLightIntensity: 0
-  enableMoon: 1
+  enableMoon: 0
   moonTexture: {fileID: 0}
   moonColor: {r: 1, g: 1, b: 1, a: 1}
   moonSize: 0.07
@@ -208,7 +208,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Jupiter/SkyShadow
   m_Shader: {fileID: 4800000, guid: 561c1777fd66e5d488ef1b85ed82bbaa, type: 3}
-  m_ShaderKeywords: ALLOW_STEP_EFFECT HORIZON_CLOUD MOON OVERHEAD_CLOUD STARS STARS_LAYER_0
+  m_ShaderKeywords: ALLOW_STEP_EFFECT HORIZON_CLOUD OVERHEAD_CLOUD STARS STARS_LAYER_0
     STARS_LAYER_1 STARS_LAYER_2
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

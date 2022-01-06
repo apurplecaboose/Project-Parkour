@@ -13,20 +13,18 @@ MonoBehaviour:
   m_Name: DefaultWaterFX
   m_EditorClassIdentifier: 
   enableUnderwater: 1
-  underwaterWaterLevel: 0
   underwaterMaxDepth: 20
+  underwaterSurfaceColorBoost: 1
   underwaterShallowFogColor: {r: 0.051397298, g: 0.1981132, b: 0.18204646, a: 0.8235294}
   underwaterDeepFogColor: {r: 0.056870773, g: 0.16981131, b: 0.1429207, a: 1}
   underwaterViewDistance: 50
   underwaterEnableCaustic: 1
-  underwaterCausticTexture: {fileID: 2800000, guid: eeacbffe8eb46d343b0d7a9189130772,
-    type: 3}
+  underwaterCausticTexture: {fileID: 2800000, guid: eeacbffe8eb46d343b0d7a9189130772, type: 3}
   underwaterCausticSize: 10
   underwaterCausticStrength: 1
   underwaterEnableDistortion: 1
-  underwaterDistortionTexture: {fileID: 2800000, guid: 968a24349aa82914f94ad8a145a1e8af,
-    type: 3}
-  underwaterDistortionStrength: 0.3
+  underwaterDistortionTexture: {fileID: 2800000, guid: 968a24349aa82914f94ad8a145a1e8af, type: 3}
+  underwaterDistortionStrength: 26.22
   underwaterWaterFlowSpeed: 1
   enableWetLens: 1
   wetLensNormalMap: {fileID: 2800000, guid: 27ce701af99abe7419b750e6c8b3a6ab, type: 3}
@@ -69,5 +67,38 @@ MonoBehaviour:
   m_Name: Water Post Process Profile
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 6110963209683392636}
+--- !u!114 &6110963209683392636
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b77c5407dc277943b591ade9e6b18c5, type: 3}
+  m_Name: LensDistortion
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  intensity:
+    overrideState: 0
+    value: 0
+  intensityX:
+    overrideState: 0
+    value: 1
+  intensityY:
+    overrideState: 0
+    value: 1
+  centerX:
+    overrideState: 0
+    value: 0
+  centerY:
+    overrideState: 0
+    value: 0
+  scale:
+    overrideState: 0
+    value: 1

@@ -44,7 +44,7 @@ public class BoxPlayerMovement : MonoBehaviour
     }
     void SunshineRays()
     {
-        LayerMask GroundandWall = 1 << 7 | 1 << 6;
+        LayerMask GroundandWall = 1 << 7 | 1 << 6 | 1 << 4 ;
 
         OnLeftWall = Physics.Raycast(transform.position, -transform.right, out lefthitinfo , 2f, 1<<6);
         OnRightWall = Physics.Raycast(transform.position, transform.right, out righthitinfo, 2f, 1<<6);
