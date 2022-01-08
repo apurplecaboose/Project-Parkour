@@ -17,8 +17,7 @@ public class BoxPlayerMovement : MonoBehaviour
     public bool OnLeftWall;
     public bool OnRightWall;
     public bool Sonic = false;
-    public float PlayerSpeed;
-    public Text currentVelocity;
+
 
     //Raycasts
     public RaycastHit lefthitinfo;
@@ -38,9 +37,6 @@ public class BoxPlayerMovement : MonoBehaviour
         SunshineRays();
         ControlDrag();
         JumpCheck();
-        
-        PlayerSpeed = Vector3.Magnitude(rb.velocity);
-        currentVelocity.text = PlayerSpeed.ToString("0.0");
     }
     void SunshineRays()
     {

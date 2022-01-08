@@ -10,7 +10,7 @@ public class Checkpoint : MonoBehaviour
 
     private void Awake()
     {
-        if (PlayerStats.CheckPointNumber == 0)
+        if (!PlayerStats.CheckPointBool)
         {
             PlayerPos.position = new Vector3(0, 6, -382);
         }
@@ -37,7 +37,7 @@ public class Checkpoint : MonoBehaviour
         if (collision.tag == "Player")
         {
             PlayerStats.ChkTransform = PlayerPos.position;
-            PlayerStats.CheckPointNumber += 1;
+            PlayerStats.CheckPointBool = true;
         }
     }
 }
