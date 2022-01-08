@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LookType: 1
   LookSens: 15
-  moveSpeed: 7
+  moveSpeed: 8
   speedMultiplier: 10
-  SideSpeed: 0.5
-  rbdrag: 4
+  SideSpeed: 0.75
+  rbdrag: 5
   airdrag: 2
   jumpforce: 30
   Grav: 5
   WallJumpPercent: 0.75
-  CheckPointNumber: 0
-  ChkTransform: {x: -2.0355356, y: 9.086552, z: -111.78617}
+  CheckPointBool: 1
+  ChkTransform: {x: -2.7818785, y: 9.616317, z: -110.22025}
