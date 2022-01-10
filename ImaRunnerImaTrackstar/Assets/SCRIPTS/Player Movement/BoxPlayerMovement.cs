@@ -11,12 +11,16 @@ public class BoxPlayerMovement : MonoBehaviour
 
     //Varibles
     float playerHeight = 1f;
-    private float SidewaysInput;  
+    private float SidewaysInput;
+    private float VerticalInput;
     public bool isGrounded;
     public bool Jumpable;
     public bool OnLeftWall;
     public bool OnRightWall;
     public bool Sonic = false;
+
+    Vector3 VeloVec;
+    float AvgVelo;
 
 
     //Raycasts
@@ -37,6 +41,11 @@ public class BoxPlayerMovement : MonoBehaviour
         SunshineRays();
         ControlDrag();
         JumpCheck();
+        
+        VeloVec = rb.velocity;
+        AvgVelo = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
+        print(AvgVelo);
+
     }
     void SunshineRays()
     {
@@ -90,12 +99,25 @@ public class BoxPlayerMovement : MonoBehaviour
     }
     void MovePlayer()
     {
-        rb.AddForce(transform.forward * PlayerStats.moveSpeed * PlayerStats.speedMultiplier, ForceMode.Acceleration); ///Constant forward force
+        //rb.AddForce(transform.forward * PlayerStats.moveSpeed * PlayerStats.speedMultiplier, ForceMode.Acceleration); ///Constant forward force
+        //rb.AddForce(transform.forward.normalized * (PlayerStats.moveSpeed * PlayerStats.speedMultiplier * 2f - AvgVelo), ForceMode.Acceleration);
+        rb.AddForce(transform.forward.normalized * (100f - AvgVelo), ForceMode.Acceleration);
+        
+
         SidewaysInput = Input.GetAxisRaw("Horizontal");
+        VerticalInput = Input.GetAxisRaw("Vertical");
         if (SidewaysInput != 0)
         {
             rb.AddForce(PlayerStats.moveSpeed * PlayerStats.SideSpeed * PlayerStats.speedMultiplier * transform.forward + PlayerStats.moveSpeed * PlayerStats.SideSpeed * SidewaysInput * PlayerStats.speedMultiplier * transform.right, ForceMode.Acceleration);
         }
+        /*
+        //HandBrake ***NOT WORKING RN***
+        if(VerticalInput<0)
+        {
+            //rb.AddForce(transform.forward * AvgVelo * -1f, ForceMode.Acceleration);
+            rb.AddForce(-transform.forward.normalized * AvgVelo * 0.1f, ForceMode.Impulse);
+        }
+        */
     }
     void Gravity()
     {
@@ -125,7 +147,7 @@ public class BoxPlayerMovement : MonoBehaviour
                 Sonic = false; // if: angle is looking up extra strong gravity function
                 if(PlayerLookScript.xRot < 0f)
                 {
-                    rb.AddForce(Vector3.down * (Mathf.Pow(Mathf.Abs(PlayerLookScript.xRot), 0.9f) + 70f), ForceMode.Acceleration);
+                    rb.AddForce(Vector3.down * (Mathf.Pow(Mathf.Abs(PlayerLookScript.xRot), 1f) + 75f), ForceMode.Acceleration);
                 }
                 else
                 {

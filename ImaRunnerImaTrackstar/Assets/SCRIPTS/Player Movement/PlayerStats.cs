@@ -14,7 +14,7 @@ public class PlayerStats : ScriptableObject
     public float SideSpeed = 0.75f;
     public float rbdrag = 5f;
     public float airdrag = 2f;
-    public float jumpforce = 35f;
+    public float jumpforce = 30f;
     public float Grav = 5f;
     public float WallJumpPercent = 0.75f;
 
