@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Checkpoint : MonoBehaviour
 {
@@ -31,7 +32,6 @@ public class Checkpoint : MonoBehaviour
         }
         */
     }
-
     public void OnTriggerEnter(Collider collision)
     {
         if (collision.tag == "Player")
@@ -39,5 +39,14 @@ public class Checkpoint : MonoBehaviour
             PlayerStats.ChkTransform = PlayerPos.position;
             PlayerStats.CheckPointBool = true;
         }
+    }
+    public void RESETall_Checkpoints()
+    {
+        PlayerStats.CheckPointBool = false;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+    public void RESETLastCheckpoint()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

@@ -44,7 +44,7 @@ public class BoxPlayerMovement : MonoBehaviour
         
         VeloVec = rb.velocity;
         AvgVelo = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
-        print(AvgVelo);
+        //print(AvgVelo);
 
     }
     void SunshineRays()

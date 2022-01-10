@@ -68,11 +68,11 @@ public class PlayerLookScript : MonoBehaviour
             {
                 if (GroundAngleZ > 90f)
                 {
-                    zRot += 0.01f * Mathf.Pow(Mathf.Abs(GroundAngleZ - 90), 2f);
+                    zRot += 0.01f * Mathf.Pow(Mathf.Abs(GroundAngleZ - 90), 1.95f);
                 }
                 else
                 {
-                    zRot -= 0.01f * Mathf.Pow(Mathf.Abs(GroundAngleZ - 90), 2f);
+                    zRot -= 0.01f * Mathf.Pow(Mathf.Abs(GroundAngleZ - 90), 1.95f);
                 }
             }
         }
@@ -121,7 +121,7 @@ public class PlayerLookScript : MonoBehaviour
         else if (!BoolCheck.isGrounded)
         {
             xRot -= mouseY * PlayerStats.LookSens * multiplier;
-            xRot = Mathf.Clamp(xRot, -45, 35f);
+            xRot = Mathf.Clamp(xRot, -35f, 40f);
             yRot += mouseX * PlayerStats.LookSens * multiplier;
         }
         else
@@ -139,7 +139,7 @@ public class PlayerLookScript : MonoBehaviour
         else if (!BoolCheck.isGrounded)
         {
             xRot -= mouseY * PlayerStats.LookSens * multiplier;
-            xRot = Mathf.Clamp(xRot, -40f, 30f);
+            xRot = Mathf.Clamp(xRot, -35f, 40f);
             yRot -= mouseX * PlayerStats.LookSens * multiplier;
 
         }
@@ -158,7 +158,7 @@ public class PlayerLookScript : MonoBehaviour
         else if (!BoolCheck.isGrounded)
         {
             xRot = mouseY * PlayerStats.LookSens * multiplier;
-            xRot = Mathf.Clamp(xRot, -45, 35f);
+            xRot = Mathf.Clamp(xRot, -35, 40f);
             yRot += mouseX * PlayerStats.LookSens * multiplier;
         }
         else
@@ -176,7 +176,7 @@ public class PlayerLookScript : MonoBehaviour
         else if (!BoolCheck.isGrounded)
         {
             xRot = mouseY * PlayerStats.LookSens * multiplier;
-            xRot = Mathf.Clamp(xRot, -45, 35f);
+            xRot = Mathf.Clamp(xRot, -35f, 40f);
             yRot -= mouseX * PlayerStats.LookSens * multiplier;
         }
         else
