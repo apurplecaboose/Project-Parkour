@@ -10,7 +10,8 @@ public class PlayerLookScript : MonoBehaviour
     float mouseX;
     float mouseY;
 
-    float multiplier = 0.1f;
+    //float multiplier = 0.1f;
+    float multiplier = 0.05f;
 
     public float xRot;
     float yRot;

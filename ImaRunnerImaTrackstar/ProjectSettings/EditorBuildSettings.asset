@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Trash.unity
     guid: e2a29cf720c71e0498ec012500a0dde5
   - enabled: 1
+    path: Assets/Traditional Tutorial.unity
+    guid: 649b9cd9a9de8734fa04b95d905cb177
+  - enabled: 1
     path: Assets/Tutorial Level.unity
     guid: 8895d0e28d22fdc45b640b9a146f14d5
   m_configObjects:

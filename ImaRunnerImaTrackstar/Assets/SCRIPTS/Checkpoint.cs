@@ -7,7 +7,7 @@ public class Checkpoint : MonoBehaviour
 {
     public PlayerStats PlayerStats;
     public Transform PlayerPos;
-
+    public PauseMenu PauseMenu;
 
     private void Awake()
     {
@@ -42,11 +42,22 @@ public class Checkpoint : MonoBehaviour
     }
     public void RESETall_Checkpoints()
     {
+        PauseMenu.GameIsPaused = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        Time.timeScale = 1f;
+
         PlayerStats.CheckPointBool = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void RESETLastCheckpoint()
     {
+        PauseMenu.GameIsPaused = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        Time.timeScale = 1f;
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        
     }
 }
