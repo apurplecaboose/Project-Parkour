@@ -12,12 +12,13 @@ GameObject:
   - component: {fileID: 3395932}
   - component: {fileID: 2395912}
   - component: {fileID: 874446856}
-  m_Layer: 0
+  - component: {fileID: 1908811176}
+  m_Layer: 6
   m_Name: SM_Bld_OfficeOld_Small_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &413734
 Transform:
@@ -89,9 +90,22 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120682}
+  m_Material: {fileID: 13400000, guid: d0b16a62a2074cb43bfda627d5045bfd, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.020346, y: 25.238956, z: 10.303418}
+  m_Center: {x: -5.028539, y: 12.619478, z: -4.978369}
+--- !u!65 &1908811176
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120682}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 11.120308, y: 25.238956, z: 11.199718}
-  m_Center: {x: -5.0462837, y: 12.619478, z: -5.03813}
+  m_Size: {x: 14.218001, y: 4.09104, z: 14.9321165}
+  m_Center: {x: -5.040281, y: 23.193487, z: -5.3893924}

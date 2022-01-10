@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
+using UnityEngine.SceneManagement;
 
 public class BoxPlayerMovement : MonoBehaviour
 {
@@ -41,11 +41,16 @@ public class BoxPlayerMovement : MonoBehaviour
         SunshineRays();
         ControlDrag();
         JumpCheck();
-        
+        //velocity readout
         VeloVec = rb.velocity;
         AvgVelo = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
         //print(AvgVelo);
 
+        //respawn script
+        if (transform.position.y < -10f)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
     void SunshineRays()
     {
