@@ -4004,3 +4004,1571 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5696.063555 seconds.
+  path: Assets/SCRIPTS/Player Movement/Rice asset.png
+  artifactKey: Guid(5f195569e19843f40b17b49d65b83faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Player Movement/Rice asset.png using Guid(5f195569e19843f40b17b49d65b83faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a4560542a55e6042543dcd95d3f060') in 0.064471 seconds 
+  Import took 0.070040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.024078 seconds.
+  path: Assets/SCRIPTS/Player Movement/Materials/Rice asset.mat
+  artifactKey: Guid(920d0d25fc611de428231f37230280df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Player Movement/Materials/Rice asset.mat using Guid(920d0d25fc611de428231f37230280df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9803ef4f7d8f5641e48ec5e4b8c72e') in 0.050551 seconds 
+  Import took 0.055708 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Domain Reload Profiling:
+	ReloadAssembly (930ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (449ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (214ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.9 MB.
+System memory in use after: 168.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3997.
+Total: 4.024300 ms (FindLiveObjects: 0.380000 ms CreateObjectMapping: 0.144500 ms MarkObjects: 3.071900 ms  DeleteObjects: 0.427100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002943 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.972 seconds
+Domain Reload Profiling:
+	ReloadAssembly (973ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (824ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (477ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (226ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.9 MB.
+System memory in use after: 168.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3999.
+Total: 4.206100 ms (FindLiveObjects: 0.361400 ms CreateObjectMapping: 0.135700 ms MarkObjects: 3.099000 ms  DeleteObjects: 0.609200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1453.704181 seconds.
+  path: Assets/SCRIPTS/Player Movement/Pressspace.png
+  artifactKey: Guid(da94940bf5e685d4c8c8af3cb7afccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Player Movement/Pressspace.png using Guid(da94940bf5e685d4c8c8af3cb7afccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0894e3e820c819bd4a75afdee8261233') in 0.046437 seconds 
+  Import took 0.052292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.723420 seconds.
+  path: Assets/SCRIPTS/Player Movement/Pressspace.png
+  artifactKey: Guid(da94940bf5e685d4c8c8af3cb7afccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Player Movement/Pressspace.png using Guid(da94940bf5e685d4c8c8af3cb7afccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd047785e2e50f6dee82040d79dc90ebd') in 0.011194 seconds 
+  Import took 0.016246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.906668 seconds.
+  path: Assets/SCRIPTS/Player Movement/Pressspace.png
+  artifactKey: Guid(da94940bf5e685d4c8c8af3cb7afccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Player Movement/Pressspace.png using Guid(da94940bf5e685d4c8c8af3cb7afccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc67b7fbe2539808fe463e0743e81d36') in 0.022324 seconds 
+  Import took 0.027051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.568841 seconds.
+  path: Assets/WaterProfile_279620767520077736.asset
+  artifactKey: Guid(6214d3eba6155274da339ebd0571bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterProfile_279620767520077736.asset using Guid(6214d3eba6155274da339ebd0571bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c9318ed5e6d0fb349c4e5b561eb366') in 0.009861 seconds 
+  Import took 0.014458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.606724 seconds.
+  path: Assets/SCRIPTS/Pressspace.png
+  artifactKey: Guid(187b4092dcd8bc74f99d15227c91cfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Pressspace.png using Guid(187b4092dcd8bc74f99d15227c91cfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf8db3c0b6cc955e65d91afe8088212') in 0.007535 seconds 
+  Import took 0.012215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.763717 seconds.
+  path: Assets/SCRIPTS/Pressspace 1.png
+  artifactKey: Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Pressspace 1.png using Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8facf027b6f32e1791b5487033c162ba') in 0.013455 seconds 
+  Import took 0.018816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.605776 seconds.
+  path: Assets/SCRIPTS/Pressspace 1.png
+  artifactKey: Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Pressspace 1.png using Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2814447ee233b61e8559ec5466e6b3da') in 0.008322 seconds 
+  Import took 0.013184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.372419 seconds.
+  path: Assets/SCRIPTS/Pressspace 1.png
+  artifactKey: Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Pressspace 1.png using Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4bd8daa99134371db01c7f0a89f4ce') in 0.008485 seconds 
+  Import took 0.013288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.989789 seconds.
+  path: Assets/SCRIPTS/Pressspace 1.png
+  artifactKey: Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Pressspace 1.png using Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee03469127b4c10c59a76c33241a743') in 0.007534 seconds 
+  Import took 0.012066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.840351 seconds.
+  path: Assets/SCRIPTS/Pressspace 1.png
+  artifactKey: Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Pressspace 1.png using Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ffc9cb9e901340fd0b17c2f1a4e30d') in 0.006477 seconds 
+  Import took 0.011115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.205471 seconds.
+  path: Assets/SCRIPTS/Pressspace 1.png
+  artifactKey: Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Pressspace 1.png using Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c28907f84f8dc8e9ff82e75993b8412') in 0.012112 seconds 
+  Import took 0.016990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.759394 seconds.
+  path: Assets/SCRIPTS/Pressspace 1.png
+  artifactKey: Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Pressspace 1.png using Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e5c88f269bac3885ea59968f9599f6') in 0.006487 seconds 
+  Import took 0.010832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.505700 seconds.
+  path: Assets/SCRIPTS/Pressspace 1.png
+  artifactKey: Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Pressspace 1.png using Guid(747c4484673545a4cae21cd53109e8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31259efaf00500982666387929183f77') in 0.006719 seconds 
+  Import took 0.011046 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002933 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1125ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (528ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (260ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.0 MB.
+System memory in use after: 168.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4004.
+Total: 4.129400 ms (FindLiveObjects: 0.346900 ms CreateObjectMapping: 0.136400 ms MarkObjects: 3.054200 ms  DeleteObjects: 0.590900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Domain Reload Profiling:
+	ReloadAssembly (929ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (224ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.0 MB.
+System memory in use after: 168.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4006.
+Total: 4.075500 ms (FindLiveObjects: 0.344700 ms CreateObjectMapping: 0.119400 ms MarkObjects: 2.996200 ms  DeleteObjects: 0.614600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 314.863078 seconds.
+  path: Assets/SCRIPTS/Pressspace.png
+  artifactKey: Guid(187b4092dcd8bc74f99d15227c91cfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Pressspace.png using Guid(187b4092dcd8bc74f99d15227c91cfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee530ba91724871c3983c8aee8936700') in 0.028627 seconds 
+  Import took 0.033966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.903775 seconds.
+  path: Assets/SCRIPTS/Pressspace.png
+  artifactKey: Guid(187b4092dcd8bc74f99d15227c91cfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Pressspace.png using Guid(187b4092dcd8bc74f99d15227c91cfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4076e36181f312a3334cd51016ebde') in 0.011331 seconds 
+  Import took 0.015847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.404584 seconds.
+  path: Assets/SCRIPTS/Pressspace.png
+  artifactKey: Guid(187b4092dcd8bc74f99d15227c91cfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Pressspace.png using Guid(187b4092dcd8bc74f99d15227c91cfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad70f108daa765c336b2875293b360c') in 0.006603 seconds 
+  Import took 0.011719 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.464 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1465ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1177ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (710ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (362ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.0 MB.
+System memory in use after: 168.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4008.
+Total: 3.737200 ms (FindLiveObjects: 0.347900 ms CreateObjectMapping: 0.084000 ms MarkObjects: 2.725800 ms  DeleteObjects: 0.578800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 554.185873 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Resources/PolarisBrushes/BuiltinSmooth03.psd
+  artifactKey: Guid(878cc1f75f019bc408f211e67f2e3b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Resources/PolarisBrushes/BuiltinSmooth03.psd using Guid(878cc1f75f019bc408f211e67f2e3b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f9d1ef2e4cac285415e674a69d7d3b') in 0.044494 seconds 
+  Import took 0.050364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Textures/Caustic.png
+  artifactKey: Guid(eeacbffe8eb46d343b0d7a9189130772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Textures/Caustic.png using Guid(eeacbffe8eb46d343b0d7a9189130772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db47b95de79311b30fea474a86473ba6') in 0.011248 seconds 
+  Import took 0.015369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/ColorspaceConversion.psd
+  artifactKey: Guid(e084f120d49cb0a4ebdbe9ba7591dbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/ColorspaceConversion.psd using Guid(e084f120d49cb0a4ebdbe9ba7591dbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880556664f052ff7d53e130456e4e98b') in 0.013576 seconds 
+  Import took 0.017776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/CSharpWizardIcon.png
+  artifactKey: Guid(7be202aa262758343be5b4db731dd7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/CSharpWizardIcon.png using Guid(7be202aa262758343be5b4db731dd7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938289e9680c5a8f0548bc73f8d1f57f') in 0.011555 seconds 
+  Import took 0.015496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/Cubemap-Stars.cubemap
+  artifactKey: Guid(59c7b8a8456c65d4aa28c47a49e4ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/Cubemap-Stars.cubemap using Guid(59c7b8a8456c65d4aa28c47a49e4ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd28f46792de1cf6710ef44a7828889f') in 0.120177 seconds 
+  Import took 0.124580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Clamp.psd
+  artifactKey: Guid(439bc848a7b1ea04dbdedd22926eaf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Clamp.psd using Guid(439bc848a7b1ea04dbdedd22926eaf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ede9a2daa33d779b674dd3aad376eee') in 0.014502 seconds 
+  Import took 0.019055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/ContrastBrightness.psd
+  artifactKey: Guid(d3d46285786fd9b42b96fa359c376e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/ContrastBrightness.psd using Guid(d3d46285786fd9b42b96fa359c376e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ade45d53c4bfc84f69987bbc941e67e') in 0.015173 seconds 
+  Import took 0.020271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Textures/CloudNoise.png
+  artifactKey: Guid(433abcf8c760aa746a5580cd0a190b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Textures/CloudNoise.png using Guid(433abcf8c760aa746a5580cd0a190b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e8b0577a923d406b34bbbd7ac5762d') in 0.012253 seconds 
+  Import took 0.016855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/CartesianToPolar.psd
+  artifactKey: Guid(0f92bcd99ae00cb4bafc704c9b0b63c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/CartesianToPolar.psd using Guid(0f92bcd99ae00cb4bafc704c9b0b63c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24203cc96d51b26e8047df116810130e') in 0.013127 seconds 
+  Import took 0.018402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Crop.psd
+  artifactKey: Guid(3edae57bba8dacb4f8d7df11318c1306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Crop.psd using Guid(3edae57bba8dacb4f8d7df11318c1306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4dc9177ef5309aaac2e8ea28065baf4') in 0.013604 seconds 
+  Import took 0.017632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/ChannelsShuffle.psd
+  artifactKey: Guid(6208f8e26218bda4ca0c6a4a68ff94db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/ChannelsShuffle.psd using Guid(6208f8e26218bda4ca0c6a4a68ff94db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c177e3444537e7c4146e37fdf7eb7d8') in 0.012394 seconds 
+  Import took 0.015795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/Textures/Checkerboard.psd
+  artifactKey: Guid(9b3976c3a8172b64cb4148def886fec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/Textures/Checkerboard.psd using Guid(9b3976c3a8172b64cb4148def886fec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290c6987d20fdcca0f1d17fe5c65cb70') in 0.011195 seconds 
+  Import took 0.015165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/Cubemap-Moon.cubemap
+  artifactKey: Guid(ef0c7a1c7205a274c8ae147b1fc68287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/Cubemap-Moon.cubemap using Guid(ef0c7a1c7205a274c8ae147b1fc68287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57137b834c99f9435cf5ad350773bc83') in 0.072966 seconds 
+  Import took 0.078176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Checkerboard.psd
+  artifactKey: Guid(2e7c1d9e80b3c214d80b48258a11d783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Checkerboard.psd using Guid(2e7c1d9e80b3c214d80b48258a11d783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4279a2a46c7454951e3d0dea5e3edd51') in 0.012611 seconds 
+  Import took 0.017787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Textures/CloudTexture0.png
+  artifactKey: Guid(d69d12cf3b1e2b144881667c78b2e4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Textures/CloudTexture0.png using Guid(d69d12cf3b1e2b144881667c78b2e4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bc5759691def6533f0f86068b3f41b') in 0.014708 seconds 
+  Import took 0.018620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.573435 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/Cubemap-Sun.cubemap
+  artifactKey: Guid(fd076cc0fa28689468954071d2137785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/Cubemap-Sun.cubemap using Guid(fd076cc0fa28689468954071d2137785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fca80c92f8d594e987c4e78b49a302') in 0.076136 seconds 
+  Import took 0.081407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Curve.psd
+  artifactKey: Guid(7bb757b2b138ae24f9ed7a2fd256ea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Curve.psd using Guid(7bb757b2b138ae24f9ed7a2fd256ea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213fe21653dc4f173fc29de7313d351b') in 0.012257 seconds 
+  Import took 0.016859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Flare.psd
+  artifactKey: Guid(5aeb7a24b32530e43a46e8fc40a4c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Flare.psd using Guid(5aeb7a24b32530e43a46e8fc40a4c17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35385740cd92fd790027dbe5fb44d00f') in 0.013387 seconds 
+  Import took 0.017085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Textures/Demo_02_WaveMask.png.png
+  artifactKey: Guid(df84b0e04058dbf448cb95616635cd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Textures/Demo_02_WaveMask.png.png using Guid(df84b0e04058dbf448cb95616635cd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1452414cbd8348d0716b08e10402e532') in 0.015803 seconds 
+  Import took 0.019408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Emboss.psd
+  artifactKey: Guid(b0ca742354512444097e0da4512ceb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Emboss.psd using Guid(b0ca742354512444097e0da4512ceb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389c3e30f604124c1bc08651b86dbf85') in 0.013827 seconds 
+  Import took 0.017213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Billboard/Dead/Dead_Atlas.png
+  artifactKey: Guid(2765194981100924d9211303031b6f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Billboard/Dead/Dead_Atlas.png using Guid(2765194981100924d9211303031b6f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de36d03c2ac3b28a6b54b975952c430e') in 0.014737 seconds 
+  Import took 0.018125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Billboard/Dead/Dead_Normal.png
+  artifactKey: Guid(82d842314f2b30f4d933932c590cf16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Billboard/Dead/Dead_Normal.png using Guid(82d842314f2b30f4d933932c590cf16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9bf20540121681ad7be12b75946751') in 0.017488 seconds 
+  Import took 0.021056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/ElevationIcon.psd
+  artifactKey: Guid(c58ad81d72b5c624aa0a7ba4b3e14373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/ElevationIcon.psd using Guid(c58ad81d72b5c624aa0a7ba4b3e14373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dcae162f7b63c02de708c3686be8bd') in 0.014633 seconds 
+  Import took 0.018540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.762531 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dbfd957caea6622d4a7766af811830') in 0.029838 seconds 
+  Import took 0.035605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.244737 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GaussianBlur.psd
+  artifactKey: Guid(1ea274250dfd2eb4b91ef88043a3dbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GaussianBlur.psd using Guid(1ea274250dfd2eb4b91ef88043a3dbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6feb19f19bff621531635fd2b956e029') in 0.016234 seconds 
+  Import took 0.021762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/GodRay.psd
+  artifactKey: Guid(56f8350a4d5aaa14f8cfee81f5168995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/GodRay.psd using Guid(56f8350a4d5aaa14f8cfee81f5168995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c823dc29bfe0580e2869eb67263de1c1') in 0.020540 seconds 
+  Import took 0.026875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/GeneratedDataIcon.psd
+  artifactKey: Guid(ce921e1c3c657de4987ff82d98c7ed88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/GeneratedDataIcon.psd using Guid(ce921e1c3c657de4987ff82d98c7ed88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5ea0db1ae888d1f08aaf8ae29ce8c1') in 0.009758 seconds 
+  Import took 0.014434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/Textures/GraphIcon.psd
+  artifactKey: Guid(d0e63ca256dd2f74385a22ff8b78f742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/Textures/GraphIcon.psd using Guid(d0e63ca256dd2f74385a22ff8b78f742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a1b67b3ab8bdfceb7ccdf7f3eee75c') in 0.011423 seconds 
+  Import took 0.017519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GradientMap.psd
+  artifactKey: Guid(19860263a0165ca499aba01df2914fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GradientMap.psd using Guid(19860263a0165ca499aba01df2914fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3460a39e1caae937aee9fe1931479d') in 0.016428 seconds 
+  Import took 0.023860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Grass01.psd
+  artifactKey: Guid(f99f2e39740a64a44b664420fff331c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Grass01.psd using Guid(f99f2e39740a64a44b664420fff331c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72dcc700d0dd12f06040c812f628c36b') in 0.012105 seconds 
+  Import took 0.016491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Grass.psd
+  artifactKey: Guid(0fb8c73ff20ed414fbb3b14b5850a734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Grass.psd using Guid(0fb8c73ff20ed414fbb3b14b5850a734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc50092a999501a8ad126f665b1b5807') in 0.021003 seconds 
+  Import took 0.027042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Textures/Grass_albedo_512_512.png
+  artifactKey: Guid(2360a48228e9b4b40b7b45a66b541834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Sample/Textures/Grass_albedo_512_512.png using Guid(2360a48228e9b4b40b7b45a66b541834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea39e0d82766b0a2713e38f7c126b9d') in 0.016979 seconds 
+  Import took 0.022401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GradientRadial.psd
+  artifactKey: Guid(00c094bdec399b74b8b0de8fab64fbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GradientRadial.psd using Guid(00c094bdec399b74b8b0de8fab64fbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706e7402ca848da126e2ef8f68734281') in 0.015355 seconds 
+  Import took 0.020487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GradientMapDynamic.psd
+  artifactKey: Guid(383905a89f1eaea4d83b8b71d078178a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GradientMapDynamic.psd using Guid(383905a89f1eaea4d83b8b71d078178a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb780894378808c7569f1bb290cf08a') in 0.012923 seconds 
+  Import took 0.017152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Grass2.psd
+  artifactKey: Guid(83aa3f5d11f54604c87c4115e4353bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Grass2.psd using Guid(83aa3f5d11f54604c87c4115e4353bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29c22c09b65f7546ee4e9b86677bb95') in 0.016753 seconds 
+  Import took 0.021661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/GearIcon.psd
+  artifactKey: Guid(591d4c9fbe7b16849b8de6e3b3ecb268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/GearIcon.psd using Guid(591d4c9fbe7b16849b8de6e3b3ecb268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2639640f364731e1e9f9cb02b55035b') in 0.015480 seconds 
+  Import took 0.021944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GradientAngular.psd
+  artifactKey: Guid(cf952e173c6c0624f8c19f2dfe98611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GradientAngular.psd using Guid(cf952e173c6c0624f8c19f2dfe98611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2de0557456d90486b0e48955c262425') in 0.019788 seconds 
+  Import took 0.024798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GradientAxial.psd
+  artifactKey: Guid(43b82685a9e87424ebaf259c1582d45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GradientAxial.psd using Guid(43b82685a9e87424ebaf259c1582d45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2bd44c6f55eac4d56b360f8e55fc150') in 0.017958 seconds 
+  Import took 0.024027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GradientLinear.psd
+  artifactKey: Guid(ff0129c5ce05ce34f8e0cd6c40f76fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/GradientLinear.psd using Guid(ff0129c5ce05ce34f8e0cd6c40f76fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cc8aef00d040625895bd9601cc9251') in 0.013226 seconds 
+  Import took 0.017636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.389317 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1690265fa622529d0eed9408dd5cd386') in 0.052294 seconds 
+  Import took 0.058295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.508268 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Heightmaps/Mountain00.png
+  artifactKey: Guid(e8b70ed43f793074c976cc4affd3e037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Heightmaps/Mountain00.png using Guid(e8b70ed43f793074c976cc4affd3e037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e567b6576bf58bb1b23b7b8d86f6e650') in 0.019393 seconds 
+  Import took 0.025664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Heightmaps/Mountain01.png
+  artifactKey: Guid(fadff9f716ed21a4eb1020e7cd42736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Heightmaps/Mountain01.png using Guid(fadff9f716ed21a4eb1020e7cd42736a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101b6c1fd240a9958481b97013f392e0') in 0.027275 seconds 
+  Import took 0.032930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/NoiseIcon.psd
+  artifactKey: Guid(d40864a6805879e4c9e45369718f6199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/NoiseIcon.psd using Guid(d40864a6805879e4c9e45369718f6199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b838a6a8f2776978eb6f5bc27f156cd1') in 0.015966 seconds 
+  Import took 0.019972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Output.psd
+  artifactKey: Guid(d805742bffaf2b241a0ede4f302b632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Output.psd using Guid(d805742bffaf2b241a0ede4f302b632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586b107d70ba3e8aa6f4a97d0517a6ba') in 0.012657 seconds 
+  Import took 0.017553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/PerlinNoise.psd
+  artifactKey: Guid(ca13d685b85b71148902b6cbb9c2cc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/PerlinNoise.psd using Guid(ca13d685b85b71148902b6cbb9c2cc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f3eba04adcdeab2368ce9a2b79accf') in 0.015087 seconds 
+  Import took 0.019636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/PaintGrassIcon.psd
+  artifactKey: Guid(76d4675bfad3d734d9932fa98d8f8010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/PaintGrassIcon.psd using Guid(76d4675bfad3d734d9932fa98d8f8010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5f289189976b38ad54accc0320ae9b') in 0.013185 seconds 
+  Import took 0.018791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/PerlinNoise.png
+  artifactKey: Guid(6c64ea1ecb6d5a344a933aee423672b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/PerlinNoise.png using Guid(6c64ea1ecb6d5a344a933aee423672b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b77904bf39e794459c6553bb0dba6a') in 0.014570 seconds 
+  Import took 0.020303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Cubemaps/Polaris_SkyCubemap_0.cubemap
+  artifactKey: Guid(b12da5bb4a0ba5d4d8c085c47a7ca071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Cubemaps/Polaris_SkyCubemap_0.cubemap using Guid(b12da5bb4a0ba5d4d8c085c47a7ca071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ac7ef40726f7be15a50d20709525c9') in 0.393990 seconds 
+  Import took 0.402101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/PineTreeDiffuse.psd
+  artifactKey: Guid(aa045cb446c55bc4ba81a9571f8a0317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/PineTreeDiffuse.psd using Guid(aa045cb446c55bc4ba81a9571f8a0317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d28aba4fd5182513b47ee86c03b34f') in 0.014645 seconds 
+  Import took 0.020756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Billboard/Pine_00/Pine_00_Normal.png
+  artifactKey: Guid(0b2ef3fd2ffce91409e2de6d379bd322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Billboard/Pine_00/Pine_00_Normal.png using Guid(0b2ef3fd2ffce91409e2de6d379bd322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54a4b84ff4e5a09b73670cca9448078') in 0.016372 seconds 
+  Import took 0.021673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Runtime/Textures/PerlinNoise.png
+  artifactKey: Guid(506efc34a9983ac4880684638edb4f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Runtime/Textures/PerlinNoise.png using Guid(506efc34a9983ac4880684638edb4f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4221e5b5b90d5de7b496e325c11a53f') in 0.013771 seconds 
+  Import took 0.019340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Textures/PerlinNoise.png
+  artifactKey: Guid(7f313a2cde54f8e4ba19db94edca915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Runtime/Textures/PerlinNoise.png using Guid(7f313a2cde54f8e4ba19db94edca915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b898c68b5e925d629f6d71005b7c4e60') in 0.013063 seconds 
+  Import took 0.017893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/PolarisIcon.png
+  artifactKey: Guid(470cca2dec652ae47b48553cf4436ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/PolarisIcon.png using Guid(470cca2dec652ae47b48553cf4436ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440de7e8e873515f0c1b3727b4a3eadd') in 0.015162 seconds 
+  Import took 0.020091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/PineTree.psd
+  artifactKey: Guid(50c1709064ac04c45af6d7d8ff192b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/PineTree.psd using Guid(50c1709064ac04c45af6d7d8ff192b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8c04e681e2dfbafc4f99d2055de9e7') in 0.015375 seconds 
+  Import took 0.020323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Cubemaps/Polaris_SkyCubemap_1.cubemap
+  artifactKey: Guid(4a9e5149484c86846bcae1bab6cd0169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Cubemaps/Polaris_SkyCubemap_1.cubemap using Guid(4a9e5149484c86846bcae1bab6cd0169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f049068275415140d484529def056b') in 0.225138 seconds 
+  Import took 0.231773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Billboard/Pine_00/Pine_00_Atlas.png
+  artifactKey: Guid(7da7fa97724548e438a10a07047ffc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Billboard/Pine_00/Pine_00_Atlas.png using Guid(7da7fa97724548e438a10a07047ffc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df469721aadc00f30618e00ad031231c') in 0.013459 seconds 
+  Import took 0.017378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/PaintTreeIcon.psd
+  artifactKey: Guid(9b571de6a53b07e4dae2e7d5be148d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/PaintTreeIcon.psd using Guid(9b571de6a53b07e4dae2e7d5be148d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa200ca58861a52c9b68edcc4519f4d1') in 0.011206 seconds 
+  Import took 0.014733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Billboard/Pine_01/Pine_01_Atlas.png
+  artifactKey: Guid(2f22d23282394654489671a857befab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Billboard/Pine_01/Pine_01_Atlas.png using Guid(2f22d23282394654489671a857befab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec1e35ae649ebd98cb584039a8e46e4') in 0.013727 seconds 
+  Import took 0.018473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/OutputToRT.psd
+  artifactKey: Guid(3a9012595e6e1c14f89f7b394b6d9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/OutputToRT.psd using Guid(3a9012595e6e1c14f89f7b394b6d9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd786fd2f8679bc51aec879eb9762efe') in 0.013720 seconds 
+  Import took 0.018525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Billboard/Pine_01/Pine_01_Normal.png
+  artifactKey: Guid(787d1bf3f801ab4408b15ea36bc74a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Billboard/Pine_01/Pine_01_Normal.png using Guid(787d1bf3f801ab4408b15ea36bc74a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17723184ebcf6881afffae81744e41bd') in 0.017839 seconds 
+  Import took 0.023123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Normal.psd
+  artifactKey: Guid(dadce82a58dd23543b39b637a6ba70be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Normal.psd using Guid(dadce82a58dd23543b39b637a6ba70be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7a85f8b4e57bc0f356bdf5b0c67778') in 0.015873 seconds 
+  Import took 0.019650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.871860 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/PolarToCartesian.psd
+  artifactKey: Guid(3e0fddc3c1029ce42b8af5f6ad275f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/PolarToCartesian.psd using Guid(3e0fddc3c1029ce42b8af5f6ad275f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9430de972502db635ff8c4852b58761') in 0.014067 seconds 
+  Import took 0.018915 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003099 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1140ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (968ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (569ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (292ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.1 MB.
+System memory in use after: 168.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4019.
+Total: 4.039400 ms (FindLiveObjects: 0.395500 ms CreateObjectMapping: 0.087900 ms MarkObjects: 2.896500 ms  DeleteObjects: 0.658600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.189201 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Cubemaps/Poseidon_SkyCubemap_1.cubemap
+  artifactKey: Guid(37b71bd838ca86948bcf420ef4a2fca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Cubemaps/Poseidon_SkyCubemap_1.cubemap using Guid(37b71bd838ca86948bcf420ef4a2fca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd3c287a1c88350c4cb14b491b2737b') in 0.288293 seconds 
+  Import took 0.294650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/StrokeOverlay.cubemap
+  artifactKey: Guid(f441ff010e8953541b03c7b6cf64f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Cubemaps/StrokeOverlay.cubemap using Guid(f441ff010e8953541b03c7b6cf64f6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4c8b7f30be3811e4714e3a408a2d64') in 0.061013 seconds 
+  Import took 0.065542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Runtime/Textures/RedTexture.psd
+  artifactKey: Guid(be6c4d41444b35148b68cd4432974843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Runtime/Textures/RedTexture.psd using Guid(be6c4d41444b35148b68cd4432974843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41e8304dbd6739932799bc3e9e9b405') in 0.012626 seconds 
+  Import took 0.015991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/RemapIcon.psd
+  artifactKey: Guid(1230b7583cbf3544e920206f6dbc8169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/RemapIcon.psd using Guid(1230b7583cbf3544e920206f6dbc8169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99af1505f340a0537e3131dc88a4763') in 0.012813 seconds 
+  Import took 0.016475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Textures/TransparentTexture.psd
+  artifactKey: Guid(c5e4a25ceaec8e64090bcd1805f4b8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Textures/TransparentTexture.psd using Guid(c5e4a25ceaec8e64090bcd1805f4b8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243beaa81d1a10dd02754d408b36cf6b') in 0.010896 seconds 
+  Import took 0.014933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Resources/PolarisBrushes/SampleBrush0.psd
+  artifactKey: Guid(36ca50646fcd9bb438393fe69f4fce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Resources/PolarisBrushes/SampleBrush0.psd using Guid(36ca50646fcd9bb438393fe69f4fce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940737b94405e07bb75e6a90008e6165') in 0.015636 seconds 
+  Import took 0.019748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b8d2a53190eb59a20ad8324559de03') in 0.013628 seconds 
+  Import took 0.016992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Splatter.psd
+  artifactKey: Guid(64f6e6a6ff192724b8c9afd1e752fe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Splatter.psd using Guid(64f6e6a6ff192724b8c9afd1e752fe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb72f670ac2633617a1468b19dc24bb') in 0.013736 seconds 
+  Import took 0.017687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Sand.psd
+  artifactKey: Guid(f4a6c81d2197db442908356b04ff1564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Sand.psd using Guid(f4a6c81d2197db442908356b04ff1564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa408bc44ec6ff2c0b4f73a28d77b4a') in 0.016586 seconds 
+  Import took 0.019945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/TerrainDataIcon.psd
+  artifactKey: Guid(0a8bc049445e99c4494f4fa2af77c8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/TerrainDataIcon.psd using Guid(0a8bc049445e99c4494f4fa2af77c8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9dbf11b3e2f8d64b4d3e60ac8b271bb') in 0.008534 seconds 
+  Import took 0.011705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/TerraceIcon.psd
+  artifactKey: Guid(81dffbdd326cbc04b883684c728e009d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/TerraceIcon.psd using Guid(81dffbdd326cbc04b883684c728e009d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb40f0a0656b9ba30ea69aea2b56bed3') in 0.011087 seconds 
+  Import took 0.014461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/QuadWireframe.psd
+  artifactKey: Guid(2729f09bc692cb24daa8a9cd34670398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/QuadWireframe.psd using Guid(2729f09bc692cb24daa8a9cd34670398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c7ef64b69f084a158a49982ca787ec') in 0.011706 seconds 
+  Import took 0.014930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Resources/PolarisBrushes/SharpCircle.png
+  artifactKey: Guid(c04dea6ddca855243b98689304bd531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Resources/PolarisBrushes/SharpCircle.png using Guid(c04dea6ddca855243b98689304bd531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1711f758f6af7f929a297a2300d5337') in 0.012108 seconds 
+  Import took 0.015390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/RGBASplit.psd
+  artifactKey: Guid(10ec11cb532301640a22cee5c7bbc0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/RGBASplit.psd using Guid(10ec11cb532301640a22cee5c7bbc0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a684ce1a519b2b67f88d8d389f7739b') in 0.012185 seconds 
+  Import took 0.015729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/RidgedNoise.png
+  artifactKey: Guid(fbfd26c60f4d63d48a6f5fe3079c8c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/RidgedNoise.png using Guid(fbfd26c60f4d63d48a6f5fe3079c8c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3914b60f4196dcf34a7ba58512ce7ae') in 0.012952 seconds 
+  Import took 0.016657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Stone.psd
+  artifactKey: Guid(72627668964b0ef4ca9fb9c656d9484d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Stone.psd using Guid(72627668964b0ef4ca9fb9c656d9484d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679c3e32aab4b732b69b9a9a9d3f125c') in 0.015780 seconds 
+  Import took 0.019253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/SplatPrototypeGroupIcon.psd
+  artifactKey: Guid(b6b0facc21280084a9353d66d8faa793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/SplatPrototypeGroupIcon.psd using Guid(b6b0facc21280084a9353d66d8faa793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8499cd1be9d5ff5cb615889238b15aed') in 0.008802 seconds 
+  Import took 0.012474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/SampleNoise.psd
+  artifactKey: Guid(ba747e991187ae24da5b560872b5b7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/SampleNoise.psd using Guid(ba747e991187ae24da5b560872b5b7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd5c02fee1c1ae5d70283fc0718064f') in 0.012038 seconds 
+  Import took 0.015619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/SmoothnessIcon.psd
+  artifactKey: Guid(d6d3a527a9addcd459b2dfa2dfe60f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/SmoothnessIcon.psd using Guid(d6d3a527a9addcd459b2dfa2dfe60f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21303d66e230e488e8ff6ad79a5b10fc') in 0.011389 seconds 
+  Import took 0.015093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/TextureArrayIcon.psd
+  artifactKey: Guid(40b931fcb4fd4d04ab710f1a850cbd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/TextureArrayIcon.psd using Guid(40b931fcb4fd4d04ab710f1a850cbd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6b67d08db979401c6304364a9c76b8') in 0.010443 seconds 
+  Import took 0.014005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/RGBAMerge.psd
+  artifactKey: Guid(b4b5c0f38bf0c6346808586699cb8ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/RGBAMerge.psd using Guid(b4b5c0f38bf0c6346808586699cb8ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b42d532907375e7e0a6d6bdf02bb99') in 0.011974 seconds 
+  Import took 0.015558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/SampleSeamlessNoise.psd
+  artifactKey: Guid(af573f14aa9ba3b4983a5e712cbf4627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/SampleSeamlessNoise.psd using Guid(af573f14aa9ba3b4983a5e712cbf4627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cdffcd36fd9164766629d99c5ad071') in 0.013777 seconds 
+  Import took 0.017481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Skew.psd
+  artifactKey: Guid(ff348e339b32b4a4a913e27006551f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Skew.psd using Guid(ff348e339b32b4a4a913e27006551f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac432a3912cb4be2172a4f9054b0218e') in 0.012255 seconds 
+  Import took 0.016151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Soil01.psd
+  artifactKey: Guid(2d8e2ff64d555e3449179ed733aeb20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Soil01.psd using Guid(2d8e2ff64d555e3449179ed733aeb20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8081ba85a241b575c1b54371d866039') in 0.011511 seconds 
+  Import took 0.015149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Textures/Stroke.psd
+  artifactKey: Guid(09ba4b1902659f24f931e5be505d306f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Jupiter - Procedural Sky/Sample/Textures/Stroke.psd using Guid(09ba4b1902659f24f931e5be505d306f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de781c6912284a49d4e85b91f8a6bf16') in 0.013626 seconds 
+  Import took 0.017655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/SpawnObjectIcon.psd
+  artifactKey: Guid(cc953290d309828419b257b5e9ad3530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/SpawnObjectIcon.psd using Guid(cc953290d309828419b257b5e9ad3530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06a183e6c4825b92bdf54831bff9433') in 0.011224 seconds 
+  Import took 0.015038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Stone01.psd
+  artifactKey: Guid(bc4442aa91a69ae44afaa3034b5659c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Stone01.psd using Guid(bc4442aa91a69ae44afaa3034b5659c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb883f8540addaaa0127aa7ec0af42c1') in 0.011795 seconds 
+  Import took 0.015283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Textures/Terrain-Color.png
+  artifactKey: Guid(d1bb668e1b16c0a43b95cc501f3f9fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Textures/Terrain-Color.png using Guid(d1bb668e1b16c0a43b95cc501f3f9fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432a1cf3cf297675e7ce4eccf8e8c448') in 0.035212 seconds 
+  Import took 0.040038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Threshold.psd
+  artifactKey: Guid(d680c4ede1e41684384be213967c6d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Threshold.psd using Guid(d680c4ede1e41684384be213967c6d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32811f9c5cd991bc08064ec3a5280a36') in 0.011688 seconds 
+  Import took 0.015361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Sharpen.psd
+  artifactKey: Guid(6b46cece50e9dd546b533574c47f8581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Sharpen.psd using Guid(6b46cece50e9dd546b533574c47f8581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0880df2a2c08cd757a42b50a5acd95f') in 0.012041 seconds 
+  Import took 0.015496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/TerrainMask_Edges.psd
+  artifactKey: Guid(22709f1eedff1a74295ff77f5cf47763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/TerrainMask_Edges.psd using Guid(22709f1eedff1a74295ff77f5cf47763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830f64252a41ad6838867a08e1b34297') in 0.013616 seconds 
+  Import took 0.017096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/PrefabPrototypeGroupIcon.psd
+  artifactKey: Guid(5f9926ffcb356ea4c9d4d0d0be344dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/PrefabPrototypeGroupIcon.psd using Guid(5f9926ffcb356ea4c9d4d0d0be344dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582f93488e34a19f4035e561f0726cd6') in 0.013579 seconds 
+  Import took 0.017028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/SolidColor.psd
+  artifactKey: Guid(c22b2c18b04781d49b792a951a8f1539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/SolidColor.psd using Guid(c22b2c18b04781d49b792a951a8f1539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f90032203587cc501fd3ed89c7f0696') in 0.011948 seconds 
+  Import took 0.015675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/SnowParticle.psd
+  artifactKey: Guid(f177245e60119f34798e2103dc69f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/SnowParticle.psd using Guid(f177245e60119f34798e2103dc69f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e20e1063295fabab1906432b7095913') in 0.012199 seconds 
+  Import took 0.015655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Shape.psd
+  artifactKey: Guid(e78b2328d7993f94a9e71c8741fbc15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Shape.psd using Guid(e78b2328d7993f94a9e71c8741fbc15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f968f824fde1a334201360b164b1834') in 0.011712 seconds 
+  Import took 0.015165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/SubDivisionIcon.psd
+  artifactKey: Guid(951f32e54569bfc468e13dac18cb5f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/SubDivisionIcon.psd using Guid(951f32e54569bfc468e13dac18cb5f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f231e6ebf0338b4d774f4c02ed7ad47') in 0.010877 seconds 
+  Import took 0.014351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
+  artifactKey: Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png using Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7994ca901503211cdc994fd688979724') in 0.013439 seconds 
+  Import took 0.017051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Textures/texture_colour_palette.tga
+  artifactKey: Guid(9123d6fad225dc54a8d8aedcfda3af82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Total Game Assets/Textures/texture_colour_palette.tga using Guid(9123d6fad225dc54a8d8aedcfda3af82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960ac6c5fb8d705eb0e52233bfafd019') in 0.014296 seconds 
+  Import took 0.017823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+  artifactKey: Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg using Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b630de64fb09897804ca17ac6c3df2') in 0.012601 seconds 
+  Import took 0.016414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/ScaleObjectIcon.psd
+  artifactKey: Guid(6c006b88daf9b734fa2c402508cdcd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/ScaleObjectIcon.psd using Guid(6c006b88daf9b734fa2c402508cdcd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea0fb0b78431d97404839add85c8dde') in 0.011655 seconds 
+  Import took 0.015473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Pow.psd
+  artifactKey: Guid(f56c275935ba4734f9e309687014e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Pow.psd using Guid(f56c275935ba4734f9e309687014e8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389251ac8e770f43bcd44275b96e4308') in 0.012801 seconds 
+  Import took 0.016543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Cubemaps/Poseidon_SkyCubemap_0.cubemap
+  artifactKey: Guid(cb76f6c136cf36e4aae51b3a5552d104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Poseidon - Low Poly Water System/Sample/Cubemaps/Poseidon_SkyCubemap_0.cubemap using Guid(cb76f6c136cf36e4aae51b3a5552d104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410edeacec2ced8c3ec038d40f70015f') in 0.306231 seconds 
+  Import took 0.311811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/PoseidonIcon.png
+  artifactKey: Guid(b8ef97d8e4f02524190cb79d1a442e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/PoseidonIcon.png using Guid(b8ef97d8e4f02524190cb79d1a442e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b03e05275cc01aa8dea875801dce04') in 0.015756 seconds 
+  Import took 0.019934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Transform2D.psd
+  artifactKey: Guid(ee7de437c61c7cf4388f99029912dd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Transform2D.psd using Guid(ee7de437c61c7cf4388f99029912dd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bc98100386cee2c5855fdd46901404') in 0.013743 seconds 
+  Import took 0.017165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Step.psd
+  artifactKey: Guid(ebe6fd9a8eb20314986474b6ada0bec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/Step.psd using Guid(ebe6fd9a8eb20314986474b6ada0bec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4076583dca824bea46695f37e079dbd') in 0.013423 seconds 
+  Import took 0.017041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/QuadTransform.psd
+  artifactKey: Guid(86864fdc83e73c34dae4495af22d49b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/TextureGraph/Core/Editor/Resources/TextureGraph/NodeIcons/QuadTransform.psd using Guid(86864fdc83e73c34dae4495af22d49b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a62435bb25f3fb97f91e2493bec875') in 0.012024 seconds 
+  Import took 0.015343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e866725c6c5772a673b6296e1900a883') in 0.017207 seconds 
+  Import took 0.020520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Snowman.psd
+  artifactKey: Guid(a1d4dea8c561aa2449ca05a4315af493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Snowman.psd using Guid(a1d4dea8c561aa2449ca05a4315af493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdf21859c4adfcd03d52fd118c55a79') in 0.012292 seconds 
+  Import took 0.015890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Thunder.psd
+  artifactKey: Guid(bf166121083bb5c44bb9c70787e471f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Samples/Pinwheel Studio/Textures/Thunder.psd using Guid(bf166121083bb5c44bb9c70787e471f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5898c0c3ce8feddb4c5c89dd702d3789') in 0.014253 seconds 
+  Import took 0.017814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/ScaleGrassIcon.psd
+  artifactKey: Guid(a2bf6801097a522438eb03bf0cda68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/ScaleGrassIcon.psd using Guid(a2bf6801097a522438eb03bf0cda68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d6f1b394886e48f5951711dfad8d2c') in 0.011633 seconds 
+  Import took 0.014926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/ScaleTreeIcon.psd
+  artifactKey: Guid(1ac3d37e93f95df438e9a7156efdc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/ScaleTreeIcon.psd using Guid(1ac3d37e93f95df438e9a7156efdc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038f014db098af378203d3ffdb416441') in 0.010380 seconds 
+  Import took 0.013731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SCRIPTS/Player Movement/Pressspace.png
+  artifactKey: Guid(da94940bf5e685d4c8c8af3cb7afccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/Player Movement/Pressspace.png using Guid(da94940bf5e685d4c8c8af3cb7afccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4efb44395eb134d662f2d359fbe7dd') in 0.009042 seconds 
+  Import took 0.012613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/SplatIcon.psd
+  artifactKey: Guid(5b890136503b1ea4c97a74c0c3879303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/SplatIcon.psd using Guid(5b890136503b1ea4c97a74c0c3879303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b5e142a50dc44acc457b32c8a4778c') in 0.010500 seconds 
+  Import took 0.013946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Asset Models/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Icons/SnapsIcon.png
+  artifactKey: Guid(f3b461aa3ce4e164e80610d900c9b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Models/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Icons/SnapsIcon.png using Guid(f3b461aa3ce4e164e80610d900c9b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6333cdeedf7fcd82f9b3ea5b9ea0a75b') in 0.008484 seconds 
+  Import took 0.011722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/SettingsIcon.psd
+  artifactKey: Guid(18e3e435c7dff9f4a8b77fcd02e98fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polaris - Low Poly Ecosystem/Polaris - Low Poly Terrain Engine/Editor/Textures/SettingsIcon.psd using Guid(18e3e435c7dff9f4a8b77fcd02e98fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfb23e0d9b4a3846942cfbbaafc73ce') in 0.009171 seconds 
+  Import took 0.012563 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003030 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Domain Reload Profiling:
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (852ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (495ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (243ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.2 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4024.
+Total: 3.809400 ms (FindLiveObjects: 0.373200 ms CreateObjectMapping: 0.113800 ms MarkObjects: 2.729800 ms  DeleteObjects: 0.591700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002499 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (911ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (528ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (261ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 169.2 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4026.
+Total: 4.135700 ms (FindLiveObjects: 0.342200 ms CreateObjectMapping: 0.116900 ms MarkObjects: 3.032600 ms  DeleteObjects: 0.642800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
