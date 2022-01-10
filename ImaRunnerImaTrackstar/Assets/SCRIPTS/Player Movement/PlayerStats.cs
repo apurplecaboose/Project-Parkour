@@ -18,7 +18,9 @@ public class PlayerStats : ScriptableObject
     public float Grav = 5f;
     public float WallJumpPercent = 0.75f;
 
+    public float yRot = 0f;
 
     public bool CheckPointBool = false;
+    public float CheckPointRot = 0f;
     public Vector3 ChkTransform;
 }

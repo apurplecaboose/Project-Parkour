@@ -8,29 +8,19 @@ public class Checkpoint : MonoBehaviour
     public PlayerStats PlayerStats;
     public Transform PlayerPos;
     public PauseMenu PauseMenu;
-
+    
     private void Awake()
     {
         if (!PlayerStats.CheckPointBool)
         {
             PlayerPos.position = new Vector3(0, 6, -382);
+            PlayerStats.yRot = 0f;
         }
         else
         {
             PlayerPos.position = PlayerStats.ChkTransform;
+            PlayerStats.yRot = PlayerStats.CheckPointRot;
         }
-        
-        /*
-        switch (PlayerStats.CheckPointNumber)
-        {
-            case 0:
-                PlayerPos.position = new Vector3(0, 6, -382);
-                break;
-            case 1:
-                PlayerPos.position = new Vector3(0, 0, 0);
-                break;
-        }
-        */
     }
     public void OnTriggerEnter(Collider collision)
     {
@@ -38,6 +28,7 @@ public class Checkpoint : MonoBehaviour
         {
             PlayerStats.ChkTransform = PlayerPos.position;
             PlayerStats.CheckPointBool = true;
+            PlayerStats.CheckPointRot = transform.rotation.eulerAngles.y;
         }
     }
     public void RESETall_Checkpoints()
@@ -58,6 +49,5 @@ public class Checkpoint : MonoBehaviour
         Time.timeScale = 1f;
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        
     }
 }

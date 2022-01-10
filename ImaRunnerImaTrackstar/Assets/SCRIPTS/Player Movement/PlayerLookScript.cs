@@ -14,7 +14,7 @@ public class PlayerLookScript : MonoBehaviour
     float multiplier = 0.05f;
 
     public float xRot;
-    float yRot;
+    //public float yRot; //Changed to a function fo PlayerStats scriptable object for easy access for Checkpoint script.
     float zRot;
 
 
@@ -82,11 +82,11 @@ public class PlayerLookScript : MonoBehaviour
         if (BoolCheck.Sonic)
         {
             WallAngleCompensation();
-            transform.rotation = Quaternion.Euler(xRot, yRot, 0);
+            transform.rotation = Quaternion.Euler(xRot, PlayerStats.yRot, 0);
         }
         else
         {
-            transform.rotation = Quaternion.Euler(xRot, yRot, zRot);
+            transform.rotation = Quaternion.Euler(xRot, PlayerStats.yRot, zRot);
         }
     }
     void LateUpdate()
@@ -123,11 +123,11 @@ public class PlayerLookScript : MonoBehaviour
         {
             xRot -= mouseY * PlayerStats.LookSens * multiplier;
             xRot = Mathf.Clamp(xRot, -35f, 40f);
-            yRot += mouseX * PlayerStats.LookSens * multiplier;
+            PlayerStats.yRot += mouseX * PlayerStats.LookSens * multiplier;
         }
         else
         {
-            yRot += mouseX * PlayerStats.LookSens * multiplier;
+            PlayerStats.yRot += mouseX * PlayerStats.LookSens * multiplier;
         }
     }
     void LeftRightReversed()
@@ -141,12 +141,12 @@ public class PlayerLookScript : MonoBehaviour
         {
             xRot -= mouseY * PlayerStats.LookSens * multiplier;
             xRot = Mathf.Clamp(xRot, -35f, 40f);
-            yRot -= mouseX * PlayerStats.LookSens * multiplier;
+            PlayerStats.yRot -= mouseX * PlayerStats.LookSens * multiplier;
 
         }
         else
         {
-            yRot -= mouseX * PlayerStats.LookSens * multiplier;
+            PlayerStats.yRot -= mouseX * PlayerStats.LookSens * multiplier;
         }
     }
     void UpDownReversed()
@@ -160,11 +160,11 @@ public class PlayerLookScript : MonoBehaviour
         {
             xRot = mouseY * PlayerStats.LookSens * multiplier;
             xRot = Mathf.Clamp(xRot, -35, 40f);
-            yRot += mouseX * PlayerStats.LookSens * multiplier;
+            PlayerStats.yRot += mouseX * PlayerStats.LookSens * multiplier;
         }
         else
         {
-            yRot += mouseX * PlayerStats.LookSens * multiplier;
+            PlayerStats.yRot += mouseX * PlayerStats.LookSens * multiplier;
         }
     }
     void EverythingReversed()
@@ -178,11 +178,11 @@ public class PlayerLookScript : MonoBehaviour
         {
             xRot = mouseY * PlayerStats.LookSens * multiplier;
             xRot = Mathf.Clamp(xRot, -35f, 40f);
-            yRot -= mouseX * PlayerStats.LookSens * multiplier;
+            PlayerStats.yRot -= mouseX * PlayerStats.LookSens * multiplier;
         }
         else
         {
-            yRot -= mouseX * PlayerStats.LookSens * multiplier;
+            PlayerStats.yRot -= mouseX * PlayerStats.LookSens * multiplier;
         }
     }
     void WallAngleCompensation()
@@ -199,13 +199,13 @@ public class PlayerLookScript : MonoBehaviour
                 {
                     yChange = 0.025f * Mathf.Pow(Mathf.Abs(WallAngle - 90), 2.2f);
                     yChange = Mathf.Clamp(yChange, 0f, 30f);
-                    yRot += yChange;
+                    PlayerStats.yRot += yChange;
                 }
                 else
                 {
                     yChange = 0.025f * Mathf.Pow(Mathf.Abs(WallAngle - 90), 2.2f);
                     yChange = Mathf.Clamp(yChange, 0f, 25f);
-                    yRot -= yChange;
+                    PlayerStats.yRot -= yChange;
                 }
             }
         }
@@ -221,13 +221,13 @@ public class PlayerLookScript : MonoBehaviour
                 {
                     yChange = 0.025f * Mathf.Pow(Mathf.Abs(WallAngle - 90), 2.2f);
                     yChange = Mathf.Clamp(yChange, 0f, 30f);
-                    yRot -= yChange;
+                    PlayerStats.yRot -= yChange;
                 }
                 else
                 {
                     yChange = 0.025f * Mathf.Pow(Mathf.Abs(WallAngle - 90), 2.2f);
                     yChange = Mathf.Clamp(yChange, 0f, 30f);
-                    yRot += yChange;
+                    PlayerStats.yRot += yChange;
                 }
             }
         }
