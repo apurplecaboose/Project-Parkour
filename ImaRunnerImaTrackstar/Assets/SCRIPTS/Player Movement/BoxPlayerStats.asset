@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BoxPlayerStats
   m_EditorClassIdentifier: 
   LookType: 1
-  LookSens: 15
+  LookSens: 30
   moveSpeed: 8
   speedMultiplier: 10
   SideSpeed: 0.75
@@ -22,5 +22,7 @@ MonoBehaviour:
   jumpforce: 30
   Grav: 5
   WallJumpPercent: 0.75
+  yRot: 151.80043
   CheckPointBool: 1
-  ChkTransform: {x: -2.7818785, y: 9.616317, z: -110.22025}
+  CheckPointRot: 90
+  ChkTransform: {x: 54.571777, y: 36.70348, z: 1256.5217}

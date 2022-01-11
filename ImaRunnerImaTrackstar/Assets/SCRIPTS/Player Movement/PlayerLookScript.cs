@@ -158,8 +158,8 @@ public class PlayerLookScript : MonoBehaviour
         }
         else if (!BoolCheck.isGrounded)
         {
-            xRot = mouseY * PlayerStats.LookSens * multiplier;
-            xRot = Mathf.Clamp(xRot, -35, 40f);
+            xRot += mouseY * PlayerStats.LookSens * multiplier;
+            xRot = Mathf.Clamp(xRot, -35f, 40);
             PlayerStats.yRot += mouseX * PlayerStats.LookSens * multiplier;
         }
         else
@@ -176,7 +176,7 @@ public class PlayerLookScript : MonoBehaviour
         }
         else if (!BoolCheck.isGrounded)
         {
-            xRot = mouseY * PlayerStats.LookSens * multiplier;
+            xRot += mouseY * PlayerStats.LookSens * multiplier;
             xRot = Mathf.Clamp(xRot, -35f, 40f);
             PlayerStats.yRot -= mouseX * PlayerStats.LookSens * multiplier;
         }
