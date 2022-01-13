@@ -44,6 +44,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void MainMenu()
     {
+        PlayerStats.LookType = 1;
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
@@ -52,6 +53,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void QuitGame()
     {
+        PlayerStats.LookType = 1;
         PlayerStats.CheckPointBool = false;
         Application.Quit();
         Debug.Log("GAME HAS BEEN QUIT");

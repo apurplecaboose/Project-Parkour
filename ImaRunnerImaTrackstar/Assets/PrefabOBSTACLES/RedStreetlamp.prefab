@@ -128,7 +128,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7176350022013319162
 Transform:
@@ -158,7 +158,7 @@ Light:
   m_Color: {r: 1, g: 0.042452812, b: 0.042452812, a: 1}
   m_Intensity: 8
   m_Range: 35
-  m_SpotAngle: 80
+  m_SpotAngle: 90
   m_InnerSpotAngle: 4
   m_CookieSize: 10
   m_Shadows:
@@ -201,7 +201,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 9.4e-44, y: 0, z: 3.9493687e+30, w: 3e-45}
+  m_BoundingSphereOverride: {x: 4.5904e-41, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0

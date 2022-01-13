@@ -33,6 +33,7 @@ public class Checkpoint : MonoBehaviour
     }
     public void RESETall_Checkpoints()
     {
+        PlayerStats.LookType = 1;
         PauseMenu.GameIsPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -43,6 +44,7 @@ public class Checkpoint : MonoBehaviour
     }
     public void RESETLastCheckpoint()
     {
+        PlayerStats.LookType = 1;
         PauseMenu.GameIsPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
