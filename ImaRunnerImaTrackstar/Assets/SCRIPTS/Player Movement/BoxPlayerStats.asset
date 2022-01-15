@@ -22,7 +22,7 @@ MonoBehaviour:
   jumpforce: 30
   Grav: 5
   WallJumpPercent: 0.75
-  yRot: 151.80043
+  yRot: -61.57505
   CheckPointBool: 1
-  CheckPointRot: 90
-  ChkTransform: {x: 54.571777, y: 36.70348, z: 1256.5217}
+  CheckPointRot: 0
+  ChkTransform: {x: 396.29623, y: 137.09567, z: 1759.4233}
