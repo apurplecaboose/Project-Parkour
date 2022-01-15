@@ -24,13 +24,14 @@ Material:
     - _OverheadCloudAnimationSpeed: 50
     - _OverheadCloudFlowDirectionX: 1
     - _OverheadCloudFlowDirectionZ: 1
-    - _OverheadCloudRemapMax: 1
-    - _OverheadCloudRemapMin: 0
+    - _OverheadCloudRemapMax: 2.57
+    - _OverheadCloudRemapMin: -0.04
     - _OverheadCloudShadowClipMask: 0.53
     - _OverheadCloudSize: 10
     - _OverheadCloudStep: 1
     m_Colors:
     - _OverheadCloudColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!21 &-1034750686407603258
 Material:
   serializedVersion: 6
@@ -142,8 +143,9 @@ Material:
     - _StarsColor1: {r: 0, g: 0, b: 0, a: 0}
     - _StarsColor2: {r: 0, g: 0, b: 0, a: 0}
     - _SunColor: {r: 1, g: 0.9700814, b: 0.9009434, a: 1}
-    - _SunDirection: {r: -0.3213938, g: -0.76604444, b: 0.5566705, a: 0}
+    - _SunDirection: {r: 0, g: 0, b: 1, a: 0}
     - _SunLightColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

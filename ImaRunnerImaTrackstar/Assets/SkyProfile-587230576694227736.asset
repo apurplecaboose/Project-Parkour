@@ -131,7 +131,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/InternalErrorShader
+  m_Name: Jupiter/Sky
   m_Shader: {fileID: 4800000, guid: 3129e3b90193a0547900ecf4cf4e9864, type: 3}
   m_ShaderKeywords: ALLOW_STEP_EFFECT HORIZON_CLOUD MOON OVERHEAD_CLOUD STARS STARS_LAYER_0
     STARS_LAYER_1 STARS_LAYER_2
@@ -221,7 +221,7 @@ Material:
     - _HorizonCloudColor: {r: 1, g: 1, b: 1, a: 1}
     - _HorizonColor: {r: 0.32156864, g: 0.37254903, b: 0.7490196, a: 0.79607844}
     - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MoonDirection: {r: 0, g: -0.76604456, b: 0.6427876, a: 0}
+    - _MoonDirection: {r: 0, g: 0, b: 1, a: 0}
     - _MoonLightColor: {r: 0.8443396, g: 0.9841163, b: 1, a: 1}
     - _OverheadCloudColor: {r: 1, g: 1, b: 1, a: 0.09803922}
     - _SkyColor: {r: 0.9982684, g: 0.82079846, b: 1.2422895, a: 0.08627451}

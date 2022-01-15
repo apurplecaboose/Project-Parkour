@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 004ffb8c9b4e90d438d35887f7b002e4, type: 3}
-  m_Name: WaterProfile_601060853869967736
+  m_Name: WaterProfile_360195544777777736
   m_EditorClassIdentifier: 
   lightingModel: 0
   useFlatLighting: 0
   renderQueueIndex: 0
-  color: {r: 0.7803044, g: 0.990566, b: 0.90556663, a: 0.09803922}
-  specColor: {r: 0.14150941, g: 0.13667007, b: 0.12215199, a: 1}
-  smoothness: 0.7
-  enableLightAbsorption: 1
-  depthColor: {r: 0.53017086, g: 0.59387314, b: 0.6981132, a: 0.78431374}
-  maxDepth: 10
-  enableFoam: 1
+  color: {r: 0, g: 0.8, b: 1, a: 0.5}
+  specColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+  smoothness: 1
+  enableLightAbsorption: 0
+  depthColor: {r: 0, g: 0.45, b: 0.65, a: 0.85}
+  maxDepth: 5
+  enableFoam: 0
   foamColor: {r: 1, g: 1, b: 1, a: 1}
   foamDistance: 1.2
-  enableFoamHQ: 1
+  enableFoamHQ: 0
   foamNoiseScaleHQ: 3
   foamNoiseSpeedHQ: 1
   shorelineFoamStrength: 1
@@ -33,31 +33,31 @@ MonoBehaviour:
   slopeFoamStrength: 0.5
   slopeFoamFlowSpeed: 20
   slopeFoamDistance: 50
-  rippleHeight: 0.2
+  rippleHeight: 0.1
   rippleSpeed: 5
   rippleNoiseScale: 1
-  enableWave: 1
-  waveDirection: 90
+  enableWave: 0
+  waveDirection: 0
   waveSpeed: 5
-  waveHeight: 2
-  waveLength: 100
+  waveHeight: 0.5
+  waveLength: 30
   waveSteepness: 0.9
-  waveDeform: 0.3
-  fresnelStrength: 1.5
+  waveDeform: 0.2
+  fresnelStrength: 0
   fresnelBias: 0
-  enableReflection: 1
-  reflectionTextureResolution: 256
+  enableReflection: 0
+  reflectionTextureResolution: 32
   enableReflectionPixelLight: 0
-  reflectionClipPlaneOffset: 0.1
+  reflectionClipPlaneOffset: 0
   reflectionLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
-  reflectCustomSkybox: 1
-  reflectionDistortionStrength: 25
-  enableRefraction: 1
-  refractionDistortionStrength: 25
-  enableCaustic: 1
+    m_Bits: 0
+  reflectCustomSkybox: 0
+  reflectionDistortionStrength: 0
+  enableRefraction: 0
+  refractionDistortionStrength: 0
+  enableCaustic: 0
   causticTexture: {fileID: 2800000, guid: eeacbffe8eb46d343b0d7a9189130772, type: 3}
   causticSize: 10
-  causticStrength: 0.5
-  causticDistortionStrength: 25
+  causticStrength: 1
+  causticDistortionStrength: 0

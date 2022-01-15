@@ -79,14 +79,18 @@ MonoBehaviour:
   overheadCloudAnimationSpeed: 50
   overheadCloudFlowDirectionX: 1
   overheadCloudFlowDirectionZ: 1
+  overheadCloudRemapMin: 0
+  overheadCloudRemapMax: 0
+  overheadCloudCastShadow: 0
+  overheadCloudShadowClipMask: 0
   enableDetailOverlay: 1
   detailOverlayTintColor: {r: 1, g: 1, b: 1, a: 0.047058824}
-  detailOverlayCubeMap: {fileID: 8900000, guid: f441ff010e8953541b03c7b6cf64f6f9,
-    type: 2}
+  detailOverlayCubeMap: {fileID: 8900000, guid: f441ff010e8953541b03c7b6cf64f6f9, type: 2}
   detailOverlayLayer: 0
   detailOverlayRotationSpeed: 0
   allowStepEffect: 1
   material: {fileID: 7677781255799719882}
+  shadowMaterial: {fileID: 0}
 --- !u!21 &7677781255799719882
 Material:
   serializedVersion: 6
@@ -158,6 +162,8 @@ Material:
     - _OverheadCloudFlowDirectionZ: 1
     - _OverheadCloudFlowX: 1
     - _OverheadCloudFlowZ: 1
+    - _OverheadCloudRemapMax: 1
+    - _OverheadCloudRemapMin: 0
     - _OverheadCloudSize: 10
     - _OverheadCloudStep: 25
     - _StarsDensity0: 0.4
@@ -189,7 +195,7 @@ Material:
     - _HorizonCloudColor: {r: 1, g: 1, b: 1, a: 1}
     - _HorizonColor: {r: 0.38431373, g: 0.48638386, b: 0.6509804, a: 1}
     - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MoonDirection: {r: -0.3213938, g: -0.76604444, b: 0.5566705, a: 0}
+    - _MoonDirection: {r: 0, g: 0, b: 1, a: 0}
     - _MoonLightColor: {r: 0.75, g: 0.90826255, b: 1, a: 0}
     - _OverheadCloudColor: {r: 1, g: 1, b: 1, a: 0.09803922}
     - _SkyColor: {r: 0.10090523, g: 0.06363475, b: 0.20754719, a: 1}
@@ -199,3 +205,4 @@ Material:
     - _SunColor: {r: 0, g: 0, b: 0, a: 0}
     - _SunDirection: {r: -1, g: -1, b: -1, a: 0}
     - _SunLightColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
