@@ -41,3 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: RainParticle System
+    uniqueID: 2799028711
+    locked: 0

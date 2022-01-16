@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3264222252466365249
+--- !u!114 &-370799577581716331
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,30 +9,59 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b77c5407dc277943b591ade9e6b18c5, type: 3}
-  m_Name: LensDistortion
+  m_Script: {fileID: 11500000, guid: 82593716811bfb449b4a447ef9eb28b9, type: 3}
+  m_Name: PUnderwater
   m_EditorClassIdentifier: 
   active: 1
   enabled:
     overrideState: 1
     value: 1
+  waterLevel:
+    overrideState: 1
+    value: 5000
+  maxDepth:
+    overrideState: 0
+    value: 10
+  surfaceColorBoost:
+    overrideState: 0
+    value: 1
+  shallowFogColor:
+    overrideState: 0
+    value: {r: 0, g: 0, b: 0, a: 0}
+  deepFogColor:
+    overrideState: 0
+    value: {r: 0, g: 0, b: 0, a: 0}
+  viewDistance:
+    overrideState: 0
+    value: 40
+  enableCaustic:
+    overrideState: 0
+    value: 0
+  causticTexture:
+    overrideState: 0
+    value: {fileID: 0}
+    defaultState: 1
+  causticSize:
+    overrideState: 0
+    value: 0
+  causticStrength:
+    overrideState: 0
+    value: 0
+  enableDistortion:
+    overrideState: 1
+    value: 1
+  distortionNormalMap:
+    overrideState: 1
+    value: {fileID: 2800000, guid: 25c43a7adff5d474291252fa203b540c, type: 3}
+    defaultState: 1
+  distortionStrength:
+    overrideState: 1
+    value: 0.25
+  waterFlowSpeed:
+    overrideState: 1
+    value: 10
   intensity:
     overrideState: 1
-    value: -15
-  intensityX:
-    overrideState: 0
-    value: 1
-  intensityY:
-    overrideState: 0
-    value: 1
-  centerX:
-    overrideState: 0
-    value: 0
-  centerY:
-    overrideState: 0
-    value: 0
-  scale:
-    overrideState: 0
     value: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -48,7 +77,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings:
   - {fileID: 5957455096892018436}
-  - {fileID: -3264222252466365249}
+  - {fileID: -370799577581716331}
 --- !u!114 &5957455096892018436
 MonoBehaviour:
   m_ObjectHideFlags: 3
