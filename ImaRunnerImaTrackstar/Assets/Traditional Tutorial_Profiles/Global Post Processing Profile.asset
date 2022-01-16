@@ -1,5 +1,148 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4861163426469375070
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f139b4427635ea1498884a5676123f13, type: 3}
+  m_Name: RaindropFX_PPV
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  fadeout_fadein_switch:
+    overrideState: 0
+    value: 0
+  fastMode:
+    overrideState: 0
+    value: 0
+  fadeSpeed:
+    overrideState: 0
+    value: 0.02
+  _raindropTex_alpha:
+    overrideState: 1
+    value: {fileID: 2800000, guid: 551b620c4f5d91a4a870f3cbc372ed08, type: 3}
+    defaultState: 1
+  _rainMask_grayscale:
+    overrideState: 0
+    value: {fileID: 0}
+    defaultState: 1
+  pixelization:
+    overrideState: 0
+    value: 0
+  pixResolution:
+    overrideState: 0
+    value: 1
+  wipeEffect:
+    overrideState: 0
+    value: 0
+  wiper:
+    overrideState: 0
+    value: {fileID: 0}
+    defaultState: 1
+  forceRainTextureSize:
+    overrideState: 0
+    value: 1
+  calcRainTextureSize:
+    overrideState: 0
+    value: {x: 800, y: 450}
+  calcTimeStep:
+    overrideState: 0
+    value: 0.1
+  refreshRate:
+    overrideState: 0
+    value: 1
+  generateTrail:
+    overrideState: 0
+    value: 1
+  maxStaticRaindropNumber:
+    overrideState: 0
+    value: 5000
+  maxDynamicRaindropNumber:
+    overrideState: 0
+    value: 10
+  raindropSizeRange:
+    overrideState: 0
+    value: {x: 0.1, y: 0.25}
+  tintColor:
+    overrideState: 0
+    value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+  tintWeight:
+    overrideState: 0
+    value: 1
+  useWind:
+    overrideState: 0
+    value: 0
+  windTurbulence:
+    overrideState: 0
+    value: 0.1
+  windTurbScale:
+    overrideState: 0
+    value: 1
+  wind:
+    overrideState: 0
+    value: {x: 0, y: 0}
+  radialWind:
+    overrideState: 0
+    value: 0
+  gravity:
+    overrideState: 0
+    value: {x: 0, y: -9.8}
+  friction:
+    overrideState: 0
+    value: 0.8
+  distortion:
+    overrideState: 0
+    value: 0.6
+  useFog:
+    overrideState: 0
+    value: 0
+  fogIntensity:
+    overrideState: 0
+    value: 0.5
+  fogIteration:
+    overrideState: 0
+    value: 2
+  edgeSoftness:
+    overrideState: 0
+    value: 1
+  _inBlack:
+    overrideState: 0
+    value: 55
+  _inWhite:
+    overrideState: 0
+    value: 180
+  _outWhite:
+    overrideState: 0
+    value: 160
+  _outBlack:
+    overrideState: 0
+    value: 5
+  dropletBlur:
+    overrideState: 0
+    value: 0
+  _focalize:
+    overrideState: 0
+    value: 1
+  blurIteration:
+    overrideState: 0
+    value: 1
+  showSteps:
+    overrideState: 0
+    value: 3
+  debugLog:
+    overrideState: 0
+    value: 0
 --- !u!114 &-1014724718478286696
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -57,7 +200,6 @@ MonoBehaviour:
   m_Name: Global Post Processing Profile
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: 3483726813916458410}
   - {fileID: 7613109476867958030}
   - {fileID: 688159481644853656}
   - {fileID: 8595940285860205764}
@@ -104,11 +246,11 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   dirtTexture:
-    overrideState: 1
+    overrideState: 0
     value: {fileID: 2800000, guid: 4c3ea273eb94af04d8e67f17669af60e, type: 3}
     defaultState: 1
   dirtIntensity:
-    overrideState: 1
+    overrideState: 0
     value: 5
 --- !u!114 &1629530075430283721
 MonoBehaviour:
@@ -159,32 +301,6 @@ MonoBehaviour:
   quality:
     overrideState: 0
     value: 2
---- !u!114 &3483726813916458410
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ea78e3311d3bc648ac0f3f022f2f307, type: 3}
-  m_Name: PWetLens
-  m_EditorClassIdentifier: 
-  active: 0
-  enabled:
-    overrideState: 1
-    value: 1
-  normalMap:
-    overrideState: 1
-    value: {fileID: 2800000, guid: 4d6c193a4acebf14db2085757b1db25f, type: 3}
-    defaultState: 1
-  strength:
-    overrideState: 1
-    value: 1
-  intensity:
-    overrideState: 1
-    value: 1
 --- !u!114 &7613109476867958030
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -197,7 +313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
