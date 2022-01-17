@@ -46,7 +46,7 @@ public class BoxPlayerMovement : MonoBehaviour
         VeloVec = rb.velocity;
         AvgVeloxz = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
         AvgVelo = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.y), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
-        print(AvgVelo);
+        //print(AvgVelo);
 
         //respawn script
         if (transform.position.y < -10f)
