@@ -20,6 +20,7 @@ public class BoxPlayerMovement : MonoBehaviour
     public bool Sonic = false;
 
     Vector3 VeloVec;
+    float AvgVeloxz;
     float AvgVelo;
 
 
@@ -43,7 +44,8 @@ public class BoxPlayerMovement : MonoBehaviour
         JumpCheck();
         //velocity readout
         VeloVec = rb.velocity;
-        AvgVelo = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
+        AvgVeloxz = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
+        AvgVelo = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.y), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
         print(AvgVelo);
 
         //respawn script

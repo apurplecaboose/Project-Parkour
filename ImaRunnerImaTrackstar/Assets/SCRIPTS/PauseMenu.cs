@@ -9,6 +9,8 @@ public class PauseMenu : MonoBehaviour
     public GameObject PauseMenuUI;
     public PlayerStats PlayerStats;
     public TMP_Text text;
+    public AudioSource Audio;
+    public AudioSource pausemus;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -26,6 +28,7 @@ public class PauseMenu : MonoBehaviour
 
     public void resume()
     {
+        Audio.Play();
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
@@ -35,6 +38,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void pause()
     {
+        pausemus.Play();
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
@@ -44,6 +48,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void MainMenu()
     {
+        Audio.Play();
         PlayerStats.LookType = 1;
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
@@ -53,6 +58,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void QuitGame()
     {
+        Audio.Play();
         PlayerStats.LookType = 1;
         PlayerStats.CheckPointBool = false;
         Application.Quit();

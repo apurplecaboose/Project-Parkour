@@ -1,0 +1,19 @@
+{
+    "name": "RaindropFX.STD",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a35efad8797223d499f8c68b1f545dbc",
+        "GUID:6d1cd2be5ba39024fb7362476c42d023",
+        "GUID:d60799ab2a985554ea1a39cd38695018",
+        "GUID:f40b851808c81294bac71a52a2bc39de"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

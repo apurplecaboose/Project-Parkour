@@ -21,6 +21,7 @@ public class PlayerStats : ScriptableObject
     public float yRot = 0f;
 
     public bool CheckPointBool = false;
+    public bool tutorialclear = false;
     public float CheckPointRot = 0f;
     public Vector3 ChkTransform;
 }

@@ -8,7 +8,6 @@ public class Checkpoint : MonoBehaviour
     public PlayerStats PlayerStats;
     public Transform PlayerPos;
     public PauseMenu PauseMenu;
-    
     private void Awake()
     {
         if (!PlayerStats.CheckPointBool)
@@ -33,6 +32,7 @@ public class Checkpoint : MonoBehaviour
     }
     public void RESETall_Checkpoints()
     {
+        
         PlayerStats.LookType = 1;
         PauseMenu.GameIsPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
@@ -44,6 +44,7 @@ public class Checkpoint : MonoBehaviour
     }
     public void RESETLastCheckpoint()
     {
+        
         PlayerStats.LookType = 1;
         PauseMenu.GameIsPaused = false;
         Cursor.lockState = CursorLockMode.Locked;

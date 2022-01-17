@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class WINNER : MonoBehaviour
 {
-    // Start is called before the first frame update
+
     public GameObject Cake;
+    public PlayerStats PlayerStats;
     public void OnTriggerEnter(Collider collision)
     {
         if (collision.tag == "Player")
         {
             Cake.SetActive(true);
+            PlayerStats.CheckPointBool = false;
+            PlayerStats.tutorialclear = true;
         }
     }
     private void Update()
