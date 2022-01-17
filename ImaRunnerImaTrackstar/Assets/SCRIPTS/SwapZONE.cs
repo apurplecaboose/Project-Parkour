@@ -5,6 +5,7 @@ using UnityEngine;
 public class SwapZONE : MonoBehaviour
 {
     public GameObject SwapUIHere;
+    public GameObject NormalUIHere;
     public bool VertSwap;
     public bool HorzSwap;
     public bool ChaosSwap;
@@ -18,7 +19,7 @@ public class SwapZONE : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         SwapUIHere.SetActive(true);
-
+        NormalUIHere.SetActive(false);
         if(HorzSwap)
         {
             PlayerStats.LookType = 2;
@@ -34,6 +35,7 @@ public class SwapZONE : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
+        NormalUIHere.SetActive(true);
         SwapUIHere.SetActive(false);
 
         PlayerStats.LookType = 1;
