@@ -48,7 +48,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void MainMenu()
     {
-        Audio.Play();
+        FindObjectOfType<AudioManager>().Play("ButtonSfx");
         PlayerStats.LookType = 1;
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
@@ -58,7 +58,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void QuitGame()
     {
-        Audio.Play();
+        FindObjectOfType<AudioManager>().Play("ButtonSfx");
         PlayerStats.LookType = 1;
         PlayerStats.CheckPointBool = false;
         Application.Quit();

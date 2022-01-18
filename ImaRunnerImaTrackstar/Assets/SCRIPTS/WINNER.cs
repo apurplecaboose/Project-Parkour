@@ -9,7 +9,7 @@ public class WINNER : MonoBehaviour
 {
     public static WINNER instance;
 
-    float CurrentTime = 0f;
+    public float CurrentTime = 0f;
     bool TimerActive = true;
     public GameObject Cake;
     public GameObject NotCake;

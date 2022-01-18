@@ -32,7 +32,8 @@ public class Checkpoint : MonoBehaviour
     }
     public void RESETall_Checkpoints()
     {
-        
+        FindObjectOfType<AudioManager>().Play("ButtonSfx");
+        FindObjectOfType<WINNER>().CurrentTime = 0f;
         PlayerStats.LookType = 1;
         PauseMenu.GameIsPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
@@ -44,7 +45,7 @@ public class Checkpoint : MonoBehaviour
     }
     public void RESETLastCheckpoint()
     {
-        
+        FindObjectOfType<AudioManager>().Play("ButtonSfx");
         PlayerStats.LookType = 1;
         PauseMenu.GameIsPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
