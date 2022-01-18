@@ -156,7 +156,6 @@ GameObject:
   - component: {fileID: 2929298277952404308}
   - component: {fileID: 2929298277952404309}
   - component: {fileID: 2929298277952404310}
-  - component: {fileID: 2929298277952404311}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -443,20 +442,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2929298277952404304}
   m_Mesh: {fileID: 0}
---- !u!64 &2929298277952404311
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2929298277952404304}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &2929298278211781229
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,7 +454,6 @@ GameObject:
   - component: {fileID: 2929298278211781225}
   - component: {fileID: 2929298278211781224}
   - component: {fileID: 2929298278211781227}
-  - component: {fileID: 2929298278211781226}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -756,20 +740,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2929298278211781229}
   m_Mesh: {fileID: 0}
---- !u!64 &2929298278211781226
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2929298278211781229}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &2929298278375289907
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,7 +752,6 @@ GameObject:
   - component: {fileID: 2929298278375289911}
   - component: {fileID: 2929298278375289910}
   - component: {fileID: 2929298278375289909}
-  - component: {fileID: 2929298278375289908}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1069,20 +1038,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2929298278375289907}
   m_Mesh: {fileID: 0}
---- !u!64 &2929298278375289908
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2929298278375289907}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &2929298278587318646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,7 +1050,6 @@ GameObject:
   - component: {fileID: 2929298278587318642}
   - component: {fileID: 2929298278587318643}
   - component: {fileID: 2929298278587318640}
-  - component: {fileID: 2929298278587318641}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1382,20 +1336,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2929298278587318646}
   m_Mesh: {fileID: 0}
---- !u!64 &2929298278587318641
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2929298278587318646}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &2929298279060536617
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,7 +1354,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2929298279060783159
 Transform:
@@ -1620,7 +1560,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2929298279232845417
 Transform:
@@ -1733,7 +1673,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2929298279481478996
 Transform:
@@ -2032,7 +1972,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2929298279914042738
 Transform:

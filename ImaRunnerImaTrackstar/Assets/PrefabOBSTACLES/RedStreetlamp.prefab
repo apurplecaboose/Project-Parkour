@@ -18,7 +18,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &7176350021375578537
 Transform:
@@ -218,7 +218,6 @@ GameObject:
   - component: {fileID: 7176350022464267689}
   - component: {fileID: 7176350022464267688}
   - component: {fileID: 7176350022464267691}
-  - component: {fileID: 7176350022464267690}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -504,18 +503,4 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7176350022464267693}
-  m_Mesh: {fileID: 0}
---- !u!64 &7176350022464267690
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7176350022464267693}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
   m_Mesh: {fileID: 0}
