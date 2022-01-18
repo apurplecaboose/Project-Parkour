@@ -8,10 +8,10 @@ public class TutorialStats : MonoBehaviour
 
     private void Awake()
     {
-        PlayerStats.Leveltime = 300f;
+        PlayerStats.Leveltime = 2700;
     }
     void Start()
     {
-        PlayerStats.Leveltime = 300f;
+        PlayerStats.Leveltime = 2700;
     }
 }
