@@ -68,6 +68,8 @@ public class WINNER : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.M))
             {
+                Cursor.lockState = CursorLockMode.Confined;
+                Cursor.visible = true;
                 SceneManager.LoadScene(0);
             }
         }
