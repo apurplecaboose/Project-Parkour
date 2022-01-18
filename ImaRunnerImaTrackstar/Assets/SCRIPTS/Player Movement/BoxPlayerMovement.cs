@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class BoxPlayerMovement : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class BoxPlayerMovement : MonoBehaviour
     public bool OnLeftWall;
     public bool OnRightWall;
     public bool Sonic = false;
+    
+    public TMP_Text TextfieldTMP;
 
     Vector3 VeloVec;
     float AvgVeloxz;
@@ -39,6 +42,14 @@ public class BoxPlayerMovement : MonoBehaviour
     /**************************************/
     public void Update()
     {
+        //lv failed 
+        if (PlayerStats.LvlFailed)
+        {
+            PlayerStats.LvlFailed = false;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        TextfieldTMP.SetText(PlayerStats.CurrTime);
+        
         SunshineRays();
         ControlDrag();
         JumpCheck();
