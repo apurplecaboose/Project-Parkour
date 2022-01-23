@@ -108,21 +108,20 @@ public class BoxPlayerMovement : MonoBehaviour
                 rb.AddForce(Vector3.up * PlayerStats.jumpforce, ForceMode.Impulse);
                 coyoteTimecounter = 0f;
             }
-            else
+
+            if (Sonic)
             {
-                if (Sonic)
-                {
-                    if(OnLeftWall)
+                if(OnLeftWall)
                     {
-                        rb.AddForce(PlayerStats.WallJumpPercent * 30f * transform.up + lefthitinfo.normal * PlayerStats.jumpforce * 1.75f, ForceMode.Impulse);
+                        rb.AddForce(PlayerStats.WallJumpPercent * 30f * transform.up + lefthitinfo.normal * 30f * 1.75f, ForceMode.Impulse);
                         Sonic = false;
                     }
-                    else
+                else
                     {
-                        rb.AddForce(PlayerStats.WallJumpPercent * -30f * transform.up + righthitinfo.normal * PlayerStats.jumpforce * 1.75f, ForceMode.Impulse);
+                        rb.AddForce(PlayerStats.WallJumpPercent * 30f * transform.up + righthitinfo.normal * 30f * 1.75f, ForceMode.Impulse);
                         Sonic = false;
                     }
-                }
+            
             }
         }
     }
