@@ -19,7 +19,10 @@ public class BoxPlayerMovement : MonoBehaviour
     public bool OnLeftWall;
     public bool OnRightWall;
     public bool Sonic = false;
-    
+
+    float coyoteTime = 0.1f;
+    float coyoteTimecounter;
+
     public TMP_Text TextfieldTMP;
 
     Vector3 VeloVec;
@@ -57,8 +60,8 @@ public class BoxPlayerMovement : MonoBehaviour
         VeloVec = rb.velocity;
         AvgVeloxz = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
         AvgVelo = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.y), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
-        //print(AvgVelo);
-
+        //print(VeloVec.y);
+        //print(coyoteTimecounter);
         //respawn script
         if (transform.position.y < -10f)
         {
@@ -71,21 +74,39 @@ public class BoxPlayerMovement : MonoBehaviour
 
         OnLeftWall = Physics.Raycast(transform.position, -transform.right, out lefthitinfo , 2f, 1<<6);
         OnRightWall = Physics.Raycast(transform.position, transform.right, out righthitinfo, 2f, 1<<6);
-        Jumpable = Physics.Raycast(transform.position, Vector3.down, playerHeight / 2 + 1f, 1 << 8);
+        Jumpable = Physics.Raycast(transform.position - new Vector3(0, 0, 0.6f), Vector3.down, playerHeight / 2 + 0.25f, 1 << 8);
         if (!Sonic)
         {
-            isGrounded = Physics.Raycast(transform.position, Vector3.down, playerHeight / 2 + 1f, GroundandWall);
-            Physics.Raycast(transform.position - new Vector3(0,0,0.6f), Vector3.down, out GroundedRay, playerHeight / 2 + 5, GroundandWall);
+            isGrounded = Physics.Raycast(transform.position - new Vector3(0, 0, 0.6f), Vector3.down, playerHeight / 2 + 0.25f, GroundandWall);
+            Physics.Raycast(transform.position, Vector3.down, out GroundedRay, playerHeight / 2 + 5, GroundandWall);
         }
         else isGrounded = false;
     }
     void JumpCheck()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (isGrounded | Jumpable)
         {
-            if (isGrounded | Jumpable)
+            coyoteTimecounter = coyoteTime;
+        }
+        else
+        {
+            coyoteTimecounter -= Time.deltaTime;
+        }
+
+        if(VeloVec.y > 10f)
+        {
+            PlayerStats.jumpforce = 0f;
+        }
+        else
+        {
+            PlayerStats.jumpforce = 30f;
+        }
+        if (Input.GetKeyDown(KeyCode.Space)| Input.GetKeyDown(KeyCode.Mouse0))// (Input.GetKey(KeyCode.Space) | Input.GetKey(KeyCode.Mouse0))
+        {
+            if (coyoteTimecounter > 0f)//(isGrounded | Jumpable)
             {
                 rb.AddForce(Vector3.up * PlayerStats.jumpforce, ForceMode.Impulse);
+                coyoteTimecounter = 0f;
             }
             else
             {
@@ -93,12 +114,12 @@ public class BoxPlayerMovement : MonoBehaviour
                 {
                     if(OnLeftWall)
                     {
-                        rb.AddForce(PlayerStats.WallJumpPercent * PlayerStats.jumpforce * transform.up + lefthitinfo.normal * PlayerStats.jumpforce * 1.75f, ForceMode.Impulse);
+                        rb.AddForce(PlayerStats.WallJumpPercent * 30f * transform.up + lefthitinfo.normal * PlayerStats.jumpforce * 1.75f, ForceMode.Impulse);
                         Sonic = false;
                     }
                     else
                     {
-                        rb.AddForce(PlayerStats.WallJumpPercent * PlayerStats.jumpforce * transform.up + righthitinfo.normal * PlayerStats.jumpforce * 1.75f, ForceMode.Impulse);
+                        rb.AddForce(PlayerStats.WallJumpPercent * -30f * transform.up + righthitinfo.normal * PlayerStats.jumpforce * 1.75f, ForceMode.Impulse);
                         Sonic = false;
                     }
                 }
