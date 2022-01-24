@@ -74,10 +74,10 @@ public class BoxPlayerMovement : MonoBehaviour
 
         OnLeftWall = Physics.Raycast(transform.position, -transform.right, out lefthitinfo , 2f, 1<<6);
         OnRightWall = Physics.Raycast(transform.position, transform.right, out righthitinfo, 2f, 1<<6);
-        Jumpable = Physics.Raycast(transform.position - new Vector3(0, 0, 0.6f), Vector3.down, playerHeight / 2 + 0.25f, 1 << 8);
+        Jumpable = Physics.Raycast(transform.position - new Vector3(0, 0, 0.6f), Vector3.down, playerHeight / 2 + 1.25f, 1 << 8);
         if (!Sonic)
         {
-            isGrounded = Physics.Raycast(transform.position - new Vector3(0, 0, 0.6f), Vector3.down, playerHeight / 2 + 0.25f, GroundandWall);
+            isGrounded = Physics.Raycast(transform.position - new Vector3(0, 0, 0.6f), Vector3.down, playerHeight / 2 + 1.25f, GroundandWall);
             Physics.Raycast(transform.position, Vector3.down, out GroundedRay, playerHeight / 2 + 5, GroundandWall);
         }
         else isGrounded = false;
