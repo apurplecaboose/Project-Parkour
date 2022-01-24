@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f860364858a86864b8e0f238811909a4, type: 3}
   m_Name: BoxPlayerStats
   m_EditorClassIdentifier: 
-  LookType: 1
+  LookType: 3
   LookSens: 30
   moveSpeed: 8
   speedMultiplier: 10
@@ -22,11 +22,11 @@ MonoBehaviour:
   jumpforce: 30
   Grav: 5
   WallJumpPercent: 0.75
-  yRot: -18.200975
+  yRot: 179.05196
   CheckPointBool: 0
   tutorialclear: 0
   CheckPointRot: 0
-  CurrTime: 0:16:646
+  CurrTime: 1:35:767
   Leveltime: 2700
   LvlFailed: 0
-  ChkTransform: {x: 404.15305, y: 134.39209, z: 1760.0905}
+  ChkTransform: {x: 389.8983, y: 137.62076, z: 1728.7175}
