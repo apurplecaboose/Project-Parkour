@@ -6,11 +6,18 @@ using TMPro;
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused;
-    public GameObject PauseMenuUI;
+    GameObject PauseMenuUI;
     public PlayerStats PlayerStats;
     public TMP_Text text;
     public AudioSource Audio;
     public AudioSource pausemus;
+
+    private void Awake()
+    {
+        PauseMenuUI = transform.GetChild(0).gameObject;
+    }
+
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -28,6 +35,8 @@ public class PauseMenu : MonoBehaviour
 
     public void resume()
     {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<BoxPlayerMovement>().enabled = true;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerLookScript>().enabled = true;
         Audio.Play();
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
@@ -38,6 +47,8 @@ public class PauseMenu : MonoBehaviour
     }
     public void pause()
     {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<BoxPlayerMovement>().enabled = false;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerLookScript>().enabled = false;
         pausemus.Play();
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;

@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerLookScript : MonoBehaviour
 {
     public PlayerStats PlayerStats;
-    public BoxPlayerMovement BoolCheck;
+    BoxPlayerMovement BoolCheck;
     float mouseX;
     float mouseY;
 
@@ -30,7 +30,10 @@ public class PlayerLookScript : MonoBehaviour
     float FloorCheckZ;
     float GroundMagnitudeZ;
     float GroundAngleZ;
-
+    private void Awake()
+    {
+        BoolCheck = GetComponent<BoxPlayerMovement>();
+    }
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b77c5407dc277943b591ade9e6b18c5, type: 3}
   m_Name: LensDistortion
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -34,6 +34,69 @@ MonoBehaviour:
   scale:
     overrideState: 0
     value: 1
+--- !u!114 &-3887725516864220033
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82593716811bfb449b4a447ef9eb28b9, type: 3}
+  m_Name: PUnderwater
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  waterLevel:
+    overrideState: 1
+    value: 2.54
+  maxDepth:
+    overrideState: 1
+    value: 10
+  surfaceColorBoost:
+    overrideState: 1
+    value: 1
+  shallowFogColor:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 0}
+  deepFogColor:
+    overrideState: 1
+    value: {r: 0, g: 0, b: 0, a: 0}
+  viewDistance:
+    overrideState: 1
+    value: 23.8
+  enableCaustic:
+    overrideState: 0
+    value: 1
+  causticTexture:
+    overrideState: 0
+    value: {fileID: 2800000, guid: 25c43a7adff5d474291252fa203b540c, type: 3}
+    defaultState: 1
+  causticSize:
+    overrideState: 0
+    value: 0
+  causticStrength:
+    overrideState: 0
+    value: 0
+  enableDistortion:
+    overrideState: 1
+    value: 1
+  distortionNormalMap:
+    overrideState: 1
+    value: {fileID: 2800000, guid: 25c43a7adff5d474291252fa203b540c, type: 3}
+    defaultState: 1
+  distortionStrength:
+    overrideState: 1
+    value: 1
+  waterFlowSpeed:
+    overrideState: 1
+    value: 1
+  intensity:
+    overrideState: 1
+    value: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49,6 +112,7 @@ MonoBehaviour:
   settings:
   - {fileID: -7071338141385820378}
   - {fileID: 3975737042627850211}
+  - {fileID: -3887725516864220033}
 --- !u!114 &3975737042627850211
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -61,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94fcd11afffcb142908bfcb1e261fba, type: 3}
   m_Name: MotionBlur
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1

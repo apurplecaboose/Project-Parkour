@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
   m_LightmapFlags: 2
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap:
@@ -75,5 +75,5 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _Color: {r: 0.8679245, g: 0.13510147, b: 0.13510147, a: 1}
-    - _EmissionColor: {r: 20.409042, g: 0.35493988, b: 0.35493988, a: 1}
+    - _EmissionColor: {r: 5.2164755, g: 0.10924556, b: 0.10924556, a: 1}
   m_BuildTextureStacks: []

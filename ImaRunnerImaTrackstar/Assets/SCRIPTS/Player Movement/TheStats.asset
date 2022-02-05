@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f860364858a86864b8e0f238811909a4, type: 3}
+  m_Name: TheStats
+  m_EditorClassIdentifier: 
+  LookType: 1
+  LookSens: 30
+  moveSpeed: 8
+  speedMultiplier: 10
+  SideSpeed: 0.75
+  rbdrag: 5
+  airdrag: 2
+  jumpforce: 30
+  Grav: 5
+  WallJumpPercent: 0.75
+  yRot: -6.6584573
+  CheckPointBool: 0
+  tutorialclear: 0
+  CheckPointRot: 0
+  CurrTime: 0:12:816
+  Leveltime: 2700
+  LvlFailed: 0
+  ChkTransform: {x: 400.0224, y: 131.5, z: 1760.2424}

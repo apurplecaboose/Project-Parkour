@@ -7,7 +7,7 @@ using TMPro;
 
 public class BoxPlayerMovement : MonoBehaviour
 {
-    public PlayerLookScript PlayerLookScript;
+    PlayerLookScript PlayerLookScript;
     public PlayerStats PlayerStats;
 
     //Varibles
@@ -35,16 +35,36 @@ public class BoxPlayerMovement : MonoBehaviour
     public RaycastHit righthitinfo;
     public RaycastHit GroundedRay;
 
-    public Animator animate;
-    public Rigidbody rb;
-    
+    Animator animate;
+    Rigidbody rb;
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody>();
+        PlayerLookScript = GetComponent<PlayerLookScript>();
+        animate = transform.GetChild(0).gameObject.GetComponent<Animator>();
+    }
     private void Start()
     {
         rb.freezeRotation = true;
     }
     /**************************************/
     public void Update()
-    {
+    {   
+        SunshineRays();
+        ControlDrag();
+        JumpCheck();
+
+        VeloVec = rb.velocity;
+        AvgVeloxz = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
+        AvgVelo = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.y), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
+        //print(VeloVec.y);
+        
+        //respawn script
+        if (transform.position.y < -10f)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
         //lv failed 
         if (PlayerStats.LvlFailed)
         {
@@ -52,21 +72,6 @@ public class BoxPlayerMovement : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         TextfieldTMP.SetText(PlayerStats.CurrTime);
-        
-        SunshineRays();
-        ControlDrag();
-        JumpCheck();
-        //velocity readout
-        VeloVec = rb.velocity;
-        AvgVeloxz = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
-        AvgVelo = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.y), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
-        //print(VeloVec.y);
-        //print(coyoteTimecounter);
-        //respawn script
-        if (transform.position.y < -10f)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
     }
     void SunshineRays()
     {
@@ -84,26 +89,17 @@ public class BoxPlayerMovement : MonoBehaviour
     }
     void JumpCheck()
     {
-        if (isGrounded | Jumpable)
-        {
-            coyoteTimecounter = coyoteTime;
-        }
-        else
-        {
-            coyoteTimecounter -= Time.deltaTime;
-        }
+        if (isGrounded | Jumpable) coyoteTimecounter = coyoteTime;  //checks if player is grounded
 
-        if(VeloVec.y > 10f)
+        else coyoteTimecounter -= Time.deltaTime; // if not coyote timer starts to count down
+
+        if(VeloVec.y > 10f) PlayerStats.jumpforce = 0f;  //to stop the hyper jump bug
+
+        else PlayerStats.jumpforce = 30f;
+
+        if (Input.GetKeyDown(KeyCode.Space)| Input.GetKeyDown(KeyCode.Mouse0))
         {
-            PlayerStats.jumpforce = 0f;
-        }
-        else
-        {
-            PlayerStats.jumpforce = 30f;
-        }
-        if (Input.GetKeyDown(KeyCode.Space)| Input.GetKeyDown(KeyCode.Mouse0))// (Input.GetKey(KeyCode.Space) | Input.GetKey(KeyCode.Mouse0))
-        {
-            if (coyoteTimecounter > 0f)//(isGrounded | Jumpable)
+            if (coyoteTimecounter > 0f)//(isGrounded | Jumpable)   If coyotetime is true jump is allowed
             {
                 rb.AddForce(Vector3.up * PlayerStats.jumpforce, ForceMode.Impulse);
                 coyoteTimecounter = 0f;
@@ -121,7 +117,6 @@ public class BoxPlayerMovement : MonoBehaviour
                         rb.AddForce(PlayerStats.WallJumpPercent * 30f * transform.up + righthitinfo.normal * 30f * 1.75f, ForceMode.Impulse);
                         Sonic = false;
                     }
-            
             }
         }
     }
@@ -137,10 +132,7 @@ public class BoxPlayerMovement : MonoBehaviour
     }
     void MovePlayer()
     {
-        //rb.AddForce(transform.forward * PlayerStats.moveSpeed * PlayerStats.speedMultiplier, ForceMode.Acceleration); ///Constant forward force
-        //rb.AddForce(transform.forward.normalized * (PlayerStats.moveSpeed * PlayerStats.speedMultiplier * 2f - AvgVelo), ForceMode.Acceleration);
         rb.AddForce(transform.forward.normalized * (100f - AvgVelo), ForceMode.Acceleration);
-        
 
         SidewaysInput = Input.GetAxisRaw("Horizontal");
         VerticalInput = Input.GetAxisRaw("Vertical");
@@ -148,14 +140,6 @@ public class BoxPlayerMovement : MonoBehaviour
         {
             rb.AddForce(PlayerStats.moveSpeed * PlayerStats.SideSpeed * PlayerStats.speedMultiplier * transform.forward + PlayerStats.moveSpeed * PlayerStats.SideSpeed * SidewaysInput * PlayerStats.speedMultiplier * transform.right, ForceMode.Acceleration);
         }
-        /*
-        //HandBrake ***NOT WORKING RN***
-        if(VerticalInput<0)
-        {
-            //rb.AddForce(transform.forward * AvgVelo * -1f, ForceMode.Acceleration);
-            rb.AddForce(-transform.forward.normalized * AvgVelo * 0.1f, ForceMode.Impulse);
-        }
-        */
     }
     void Gravity()
     {
@@ -163,21 +147,18 @@ public class BoxPlayerMovement : MonoBehaviour
         {
             rb.AddForce(Vector3.down * PlayerStats.Grav * 0.5f *PlayerStats.speedMultiplier, ForceMode.Acceleration); // FLOOR GRAVITY
             Sonic = false;
-
         }
         else
         {
             if (OnRightWall && ((Input.GetAxisRaw("Horizontal")) > 0.75f))
             {
-                rb.AddForce(-5f * PlayerStats.speedMultiplier * righthitinfo.normal, ForceMode.Acceleration);
+                rb.AddForce(-4f * PlayerStats.speedMultiplier * righthitinfo.normal + transform.forward * 20f, ForceMode.Acceleration);
                 Sonic = true;
-
             }
             else if (OnLeftWall && ((Input.GetAxisRaw("Horizontal")) < -0.75f))
             {
-                rb.AddForce(-5f * PlayerStats.speedMultiplier * lefthitinfo.normal, ForceMode.Acceleration);
+                rb.AddForce(-4f * PlayerStats.speedMultiplier * lefthitinfo.normal + transform.forward * 20f, ForceMode.Acceleration);
                 Sonic = true;
-
             }
             else
             {
@@ -194,7 +175,6 @@ public class BoxPlayerMovement : MonoBehaviour
             }
         }
     }
-
     private void LateUpdate()
     {
       if(Sonic)

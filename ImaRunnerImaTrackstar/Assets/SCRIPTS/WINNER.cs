@@ -11,18 +11,38 @@ public class WINNER : MonoBehaviour
 
     public float CurrentTime = 0f;
     bool TimerActive = true;
-    public GameObject Cake;
-    public GameObject NotCake;
+    GameObject Cake;
+    GameObject NotCake;
     public PlayerStats PlayerStats;
     private bool Lvlcleared = false;
-    
+    public GameObject PlayerSmovement;
+    public GameObject StartingUIElement;
+    public GameObject ControlsUIElement;
+    public GameObject SwapUI;
+    public HeliHover HeliHover;
+    public Animator ani;
+
+
+
     private void Awake()
     {
+        Cake = transform.GetChild(0).gameObject.transform.GetChild(0).gameObject;
+        NotCake = transform.GetChild(0).gameObject.transform.GetChild(1).gameObject;
+        
+
         if (instance == null)
         {
-            instance = this;
-            TimerActive = true;
-            Lvlcleared = false;
+            if (SceneManager.GetActiveScene().buildIndex == 0 | SceneManager.GetActiveScene().buildIndex == 1 | SceneManager.GetActiveScene().buildIndex == 2)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                instance = this;
+                TimerActive = true;
+                Lvlcleared = false;
+                DontDestroyOnLoad(gameObject);
+            }
         }
         else
         {
@@ -30,7 +50,29 @@ public class WINNER : MonoBehaviour
             return;
         }
 
-        DontDestroyOnLoad(gameObject);
+    }
+    private void Start()
+    {
+        if (SceneManager.GetActiveScene().buildIndex > 2 && !PlayerStats.CheckPointBool)
+        {
+
+            if (SceneManager.GetActiveScene().buildIndex == 3)
+            {
+                if (PlayerStats.tutorialclear)
+                {
+                    StartingUIElement.SetActive(true);
+                }
+                else
+                {
+                    ControlsUIElement.SetActive(true);
+                }
+            }
+            else
+            {
+                ControlsUIElement.SetActive(true);
+            }
+
+        }
     }
     public void OnTriggerEnter(Collider collision)
     {
@@ -53,9 +95,23 @@ public class WINNER : MonoBehaviour
     }
     private void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 0)
+
+        if (SceneManager.GetActiveScene().buildIndex == 0 | SceneManager.GetActiveScene().buildIndex == 1 | SceneManager.GetActiveScene().buildIndex == 2)
         {
             Destroy(gameObject);
+        }
+        if (SwapUI == null)
+        {
+            SwapUI = GameObject.Find("SwapUI");
+        }
+
+        if (Time.timeScale == 0)
+        {
+            SwapUI.SetActive(false);
+        }
+        else
+        {
+            SwapUI.SetActive(true);
         }
         /////////
         if (TimerActive)
@@ -76,6 +132,13 @@ public class WINNER : MonoBehaviour
     }
     IEnumerator LevelCleared()
     {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<BoxPlayerMovement>().enabled = false;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerLookScript>().enabled = false;
+        GameObject.Find("PauseMenuParent").SetActive(false);
+        ani = GameObject.FindGameObjectWithTag("Cinemachine").GetComponent<Animator>();
+        HeliHover = GameObject.FindGameObjectWithTag("Helicopter").GetComponent<HeliHover>();
+        HeliHover.wongame = true;
+        ani.SetTrigger("Extract");
         Lvlcleared = true;
         yield return new WaitForSeconds(1);
         Cake.SetActive(true);

@@ -95,7 +95,7 @@ Material:
     - _FogColor: {r: 0, g: 0, b: 0, a: 0}
     - _GroundColor: {r: 0.002428216, g: 0.015996292, b: 0.07818743, a: 0}
     - _HorizonCloudColor: {r: 0.33659995, g: 0.21176472, b: 0.47058824, a: 1}
-    - _HorizonColor: {r: 0.74745685, g: 0.7019608, b: 1, a: 1}
+    - _HorizonColor: {r: 0.26332226, g: 0.21092917, b: 0.5660378, a: 1}
     - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
     - _MoonDirection: {r: 0, g: 0, b: 1, a: 0}
     - _MoonLightColor: {r: 0.8443396, g: 0.9841163, b: 1, a: 1}
@@ -105,7 +105,7 @@ Material:
     - _StarsColor1: {r: 1, g: 0.24056602, b: 0.8628801, a: 1}
     - _StarsColor2: {r: 0, g: 0.8351569, b: 1, a: 1}
     - _SunColor: {r: 0, g: 0, b: 0, a: 0}
-    - _SunDirection: {r: 0, g: 0, b: 1, a: 0}
+    - _SunDirection: {r: -0.663414, g: -0.6427876, b: 0.38302222, a: 0}
     - _SunLightColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &11400000
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Name: CustomSky
   m_EditorClassIdentifier: 
   skyColor: {r: 0.060585912, g: 0.03760235, b: 0.122641504, a: 1}
-  horizonColor: {r: 0.74745685, g: 0.7019608, b: 1, a: 1}
+  horizonColor: {r: 0.26332226, g: 0.21092917, b: 0.5660378, a: 1}
   groundColor: {r: 0.002428216, g: 0.015996292, b: 0.07818743, a: 0}
   horizonThickness: 1
   horizonExponent: 10
