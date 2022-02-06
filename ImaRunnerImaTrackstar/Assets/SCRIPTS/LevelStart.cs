@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class LevelStart : MonoBehaviour
 {
-
+    public GameObject PauseMenuParent;
     bool ReadytoRumble = true;
     private void Awake()
     {
+        PauseMenuParent = GameObject.Find("PauseMenuParent");
+        PauseMenuParent.SetActive(false);
         Time.timeScale = 0;
     }
 
@@ -17,6 +19,7 @@ public class LevelStart : MonoBehaviour
         {
             if(ReadytoRumble)
             {
+                PauseMenuParent.SetActive(true);
                 ReadytoRumble = false;
                 Time.timeScale = 1;
                 Destroy(gameObject);

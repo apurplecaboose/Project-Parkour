@@ -38,7 +38,7 @@ public class Checkpoint : MonoBehaviour
     }
     public void Update()
     {
-        if (Input.GetButtonDown("Reset") && winner.CurrentTime > 0)
+        if (Input.GetButtonDown("Reset") && winner.CurrentTime > 0 && !winner.Lvlcleared)
         {
                 Time.timeScale = 0;
                 winner.CurrentTime = 0;

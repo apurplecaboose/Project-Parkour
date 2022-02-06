@@ -30,4 +30,6 @@ public class PlayerStats : ScriptableObject
 
     public bool LvlFailed = false;
     public Vector3 ChkTransform;
+
+    public float HorzSpeedVal;
 }

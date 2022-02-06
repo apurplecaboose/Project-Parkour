@@ -55,9 +55,10 @@ public class BoxPlayerMovement : MonoBehaviour
         JumpCheck();
 
         VeloVec = rb.velocity;
-        AvgVeloxz = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
+        //AvgVeloxz = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
         AvgVelo = Mathf.Sqrt(Mathf.Pow(Mathf.Abs(VeloVec.x), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.y), 2f) + Mathf.Pow(Mathf.Abs(VeloVec.z), 2f));
-        //print(VeloVec.y);
+        AvgVeloxz = Vector3.Dot(VeloVec, transform.forward);
+        PlayerStats.HorzSpeedVal = AvgVeloxz;
         
         //respawn script
         if (transform.position.y < -10f)

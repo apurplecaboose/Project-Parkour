@@ -14,15 +14,14 @@ public class WINNER : MonoBehaviour
     GameObject Cake;
     GameObject NotCake;
     public PlayerStats PlayerStats;
-    private bool Lvlcleared = false;
+    public bool Lvlcleared = false;
     public GameObject PlayerSmovement;
     public GameObject StartingUIElement;
     public GameObject ControlsUIElement;
     public GameObject SwapUI;
     public HeliHover HeliHover;
     public Animator ani;
-
-
+    public TMP_Text winningtime;
 
     private void Awake()
     {
@@ -109,7 +108,7 @@ public class WINNER : MonoBehaviour
         {
             SwapUI.SetActive(false);
         }
-        else
+        else if(!Lvlcleared)
         {
             SwapUI.SetActive(true);
         }
@@ -138,9 +137,12 @@ public class WINNER : MonoBehaviour
         ani = GameObject.FindGameObjectWithTag("Cinemachine").GetComponent<Animator>();
         HeliHover = GameObject.FindGameObjectWithTag("Helicopter").GetComponent<HeliHover>();
         HeliHover.wongame = true;
-        ani.SetTrigger("Extract");
         Lvlcleared = true;
-        yield return new WaitForSeconds(1);
+        SwapUI.SetActive(false);
+
+        winningtime.SetText(PlayerStats.CurrTime);
+        ani.SetTrigger("Extract");
+        yield return new WaitForSeconds(2);
         Cake.SetActive(true);
     }
     IEnumerator LevelFailed()
