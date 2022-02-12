@@ -38,8 +38,8 @@ MonoBehaviour:
   rippleNoiseScale: 1
   enableWave: 1
   waveDirection: 90
-  waveSpeed: 5
-  waveHeight: 2
+  waveSpeed: 25
+  waveHeight: 3
   waveLength: 100
   waveSteepness: 0.9
   waveDeform: 0.3
@@ -59,5 +59,5 @@ MonoBehaviour:
   enableCaustic: 1
   causticTexture: {fileID: 2800000, guid: eeacbffe8eb46d343b0d7a9189130772, type: 3}
   causticSize: 10
-  causticStrength: 0.5
+  causticStrength: 1.5
   causticDistortionStrength: 25

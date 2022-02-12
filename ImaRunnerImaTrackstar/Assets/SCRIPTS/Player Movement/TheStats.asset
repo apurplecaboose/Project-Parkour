@@ -22,12 +22,12 @@ MonoBehaviour:
   jumpforce: 30
   Grav: 5
   WallJumpPercent: 0.75
-  yRot: 0.30001116
+  yRot: -0.0806161
   CheckPointBool: 0
-  tutorialclear: 0
+  tutorialclear: 1
   CheckPointRot: 0
-  CurrTime: 0:02:463
+  CurrTime: 2:01:849
   Leveltime: 2700
   LvlFailed: 0
-  ChkTransform: {x: 2.13126, y: 11.487157, z: -109.94901}
-  HorzSpeedVal: 15.2414055
+  ChkTransform: {x: 400.5796, y: 136.5635, z: 1749.2308}
+  HorzSpeedVal: 28.075996
